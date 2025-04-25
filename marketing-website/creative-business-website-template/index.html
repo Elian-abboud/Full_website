@@ -1,0 +1,1506 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- AOS Animation CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Marketing Packages</title>
+    <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/logo_pure.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/plugins/testimonial/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/plugins/testimonial/css/owl.theme.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+</head>
+<!-- AOS Animation JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+    window.addEventListener('load', function () {
+        AOS.init();
+    });
+</script>
+
+<body>
+    <header>
+        <div id="menu-jk" class="nav-part shadow fixed-top">
+            <div class="container-xl p-0">
+                <div class="row navcol p-3">
+                    <div class="col-6 col-lg-4 d-flex align-items-center">
+                        <img class="max-230" src="assets/images/logonew.png" alt="Company Logo with Name"
+                            style="height: auto; width: 100%; max-width: 150px;">
+                    </div>
+                    <div class="col-6 col-lg-8 text-end pe-0">
+                        <button id="menu-toggle" class="d-lg-none btn btn-outline-light border-0"
+                            data-bs-toggle="collapse" data-bs-target="#menu">
+                            <i class="bi bi-list fs-4"></i>
+                        </button>
+                        <button id="menu-close" class="d-lg-none btn btn-outline-light border-0 d-none">
+                            <i class="bi bi-x-lg fs-4"></i>
+                        </button>
+
+                        <div id="menu" class="collapse d-lg-block">
+                            <ul class="fw-bold nav-list fs-8 text-uppercase">
+                                <li class="nav-item"><a href="#home" class="nav-link mobile-menu-link">Home</a></li>
+                                <li class="nav-item"><a href="#about" class="nav-link mobile-menu-link">About Us</a>
+                                </li>
+                                <li class="nav-item"><a href="#Packages" class="nav-link mobile-menu-link">Packages</a>
+                                </li>
+                                <li class="nav-item"><a href="#services" class="nav-link mobile-menu-link">Services</a>
+                                </li>
+                                <li class="nav-item"><a href="#contact" class="nav-link mobile-menu-link">Contact Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="../../index.html"
+                                        class="nav-link mobile-menu-link highlight-link">Francis-Tech</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <style>
+            html,
+            body {
+                margin: 0;
+                padding: 0;
+                overflow-x: hidden;
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+
+            #menu-jk {
+                background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #7db9e8 100%);
+                top: 0;
+                z-index: 1030;
+                width: 100%;
+            }
+
+            .navcol {
+                background: transparent !important;
+                width: 100%;
+            }
+
+            .nav-link {
+                color: white !important;
+            }
+
+            .highlight-link {
+                color: #ffcc00 !important;
+                font-weight: bolder;
+            }
+
+            @media (max-width: 991px) {
+                .navcol {
+                    padding: 0 10px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 100%;
+                }
+
+                .nav-list {
+                    position: absolute;
+                    top: 100%;
+                    left: 0;
+                    right: 0;
+                    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+                    z-index: 1000;
+                    padding: 15px;
+                    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+                    margin: 0;
+                    border-radius: 0 0 10px 10px;
+                    width: 100%;
+                    max-height: 500px;
+                    overflow-y: auto;
+                }
+
+                .nav-item {
+                    display: block;
+                    padding: 10px 0;
+                    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+                    text-align: center;
+                }
+
+                .nav-item:last-child {
+                    border-bottom: none;
+                }
+
+                .nav-link {
+                    padding: 8px 15px;
+                    display: block;
+                    transition: all 0.3s ease;
+                }
+
+                .nav-link:hover {
+                    background: rgba(255, 255, 255, 0.1);
+                    border-radius: 5px;
+                }
+
+                #menu-toggle {
+                    padding: 0.25rem 0.5rem;
+                    color: white;
+                }
+
+                #menu-toggle:hover {
+                    color: #ffcc00;
+                }
+
+                #home {
+                    padding-top: 100px;
+                }
+            }
+
+            @media (min-width: 992px) {
+                .nav-list {
+                    display: flex;
+                    justify-content: flex-end;
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                    width: auto;
+                    flex-wrap: nowrap;
+                }
+
+                .nav-item {
+                    margin-left: 10px;
+                }
+
+                .nav-link {
+                    padding: 8px 15px;
+                    text-decoration: none;
+                    transition: all 0.3s ease;
+                    border-radius: 5px;
+                }
+
+                .nav-link:hover {
+                    background: rgba(255, 255, 255, 0.1);
+                }
+            }
+
+            section {
+                scroll-margin-top: 100px;
+                opacity: 0;
+                transform: translateY(30px);
+                transition: opacity 0.8s ease, transform 0.8s ease;
+            }
+
+            section.in-view {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        </style>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const menuToggle = document.getElementById('menu-toggle');
+                const menuClose = document.getElementById('menu-close');
+                const menuCollapse = document.getElementById('menu');
+
+                menuToggle.addEventListener('click', function () {
+                    menuToggle.classList.add('d-none');
+                    menuClose.classList.remove('d-none');
+                });
+
+                menuClose.addEventListener('click', function () {
+                    const bsCollapse = new bootstrap.Collapse(menuCollapse, {
+                        toggle: false
+                    });
+                    bsCollapse.hide();
+
+                    menuClose.classList.add('d-none');
+                    menuToggle.classList.remove('d-none');
+                });
+
+                const mobileMenuLinks = document.querySelectorAll('.mobile-menu-link');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', function () {
+                        if (window.innerWidth < 992) {
+                            const bsCollapse = new bootstrap.Collapse(menuCollapse, {
+                                toggle: false
+                            });
+                            bsCollapse.hide();
+                            menuClose.classList.add('d-none');
+                            menuToggle.classList.remove('d-none');
+                        }
+                    });
+                });
+
+                // تأثير التمرير السلس
+                document.querySelectorAll('.nav-link[href^="#"]').forEach(anchor => {
+                    anchor.addEventListener('click', function (e) {
+                        e.preventDefault();
+                        const target = document.querySelector(this.getAttribute('href'));
+                        if (target) {
+                            target.scrollIntoView({
+                                behavior: 'smooth',
+                                block: 'start'
+                            });
+                        }
+                    });
+                });
+                // أنيميشن عند ظهور الأقسام
+                const sections = document.querySelectorAll('section');
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('in-view');
+                        }
+                    });
+                }, {
+                    threshold: 0.1
+                });
+
+                sections.forEach(section => {
+                    observer.observe(section);
+                });
+            });
+        </script>
+    </header>
+
+
+    <!--  ************************* Home Start Here ************************** -->
+    <div id="home" class="banner big-padding bg-white container-fluid">
+        <div class="container-xl p-0 max-1200">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-duration="1000">
+                    <h1 class="hero-title">
+                        We Help You Take Your Business to The <span>Next Level</span>
+                    </h1>
+                    <p class="HeroDesc" style="color: #003366;">
+                        We have a dedicated digital marketing team that helps businesses grow online through SEO,
+                        Google
+                        My Business optimization, social media management, and targeted advertising. Whether or not
+                        a
+                        business has a
+                        website, we tailor our strategies to maximize visibility, engagement, and growth.
+                    </p>
+                    <a href="#about">
+                        <button class="hero-btn">
+                            Explore <i class="bi bi-chevron-right"></i>
+                        </button>
+                    </a>
+                </div>
+                <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="hero-image-wrapper">
+                        <img src="assets/images/banner-img.png" alt="Banner Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <style>
+            .hero-title {
+                font-size: 2.8rem;
+                font-weight: 700;
+                color: #1a1a1a;
+                font-family: 'Poppins', sans-serif;
+                line-height: 1.3;
+                margin-bottom: 20px;
+                background: linear-gradient(135deg, #88b9f5, #ffffff);
+                padding: 10px;
+                border-radius: 8px;
+            }
+
+            .hero-title span {
+                color: #007BFF;
+                background: linear-gradient(90deg, #007BFF, #00c6ff);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            .HeroDesc {
+                font-size: 1.1rem;
+                color: #007BFF;
+                line-height: 1.7;
+                font-family: 'Segoe UI', sans-serif;
+                margin-bottom: 35px;
+                padding: 15px;
+                border-radius: 10px;
+            }
+
+
+            .hero-btn {
+                background: linear-gradient(to right, #1c274c, #007BFF);
+                color: #fff;
+                padding: 14px 32px;
+                font-size: 1rem;
+                border-radius: 8px;
+                font-weight: 600;
+                border: none;
+                transition: all 0.3s ease;
+                box-shadow: 0 8px 20px rgba(0, 123, 255, 0.25);
+            }
+
+            .hero-btn:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 12px 30px rgba(0, 123, 255, 0.4);
+                background: linear-gradient(to right, #007BFF, #1c274c);
+            }
+
+            .hero-image-wrapper {
+                border-radius: 20px;
+                overflow: hidden;
+                transition: transform 0.4s ease;
+                animation: moveImage 2s infinite ease-in-out;
+            }
+
+            .hero-image-wrapper img {
+                width: 100%;
+                display: block;
+                border-radius: 20px;
+            }
+
+            .hero-image-wrapper:hover {
+                transform: scale(1.015);
+            }
+
+            /* @keyframes for the image animation */
+            @keyframes moveImage {
+                0% {
+                    transform: translateY(0);
+                }
+
+                50% {
+                    transform: translateY(-10px);
+                }
+
+                100% {
+                    transform: translateY(0);
+                }
+            }
+
+            @media (max-width: 767px) {
+                .hero-title {
+                    font-size: 2rem;
+                }
+
+                .HeroDesc {
+                    font-size: 1rem;
+                }
+            }
+        </style>
+    </div>
+
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ once: true, duration: 1000 });
+    </script>
+
+
+
+    <!--  ************************* About US Start Here ************************** -->
+
+    <section id="about" class="about-us bg-white border-top big-padding container-fluid">
+        <div class="container-xl p-0">
+            <div class="section-title row">
+                <h2 class="HeroDesc">About US</h2>
+                <p style="font-size: 1.1rem; text-align: left; display: flex; justify-content: space-between;">
+                    Beyond technology, we have a dedicated digital marketing team that
+                    helps businesses grow online. Our expertise covers SEO strategies,
+                    Google My Business (GMB) optimization, social media management,
+                    and targeted advertising. Whether a business has a website or not, we
+                    adapt our SEO strategies to maximize visibility, engagement, and
+                    business growth in the digital landscape.
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 p-4">
+                    <img src="../creative-business-website-template/assets/images/about.png" alt="">
+                </div>
+
+
+                <div class="col-md-6 align-self-center">
+                    <h2 class="fs-1 fw-bold hero-title">We set New Bench Mark in Digital Marketing</h2>
+                    <h4 class="text-primary my-4 fw-bold">Multiple Packages</h4>
+
+                    <p style=" font-size: 1.1rem; font-weight: 600;">We offer comprehensive digital
+                        marketing solutions
+                        that cater to all your
+                        business needs, with multiple packages and
+                        transparent pricing to suit different levels of work. Whether you're a small business or a
+                        large
+                        corporation, we have
+                        the right package for you.
+                    </p>
+                    <p style=" font-size: medium; font-weight: 600;">Start today with our diverse packages that fit
+                        all
+                        budgets and digital needs. Invest in your
+                        digital marketing now and
+                        achieve the success you deserve</p>
+                </div>
+            </div>
+        </div>
+        <style>
+            @keyframes floaty {
+                0% {
+                    transform: translateY(0px);
+                }
+
+                50% {
+                    transform: translateY(-16px);
+                    /* أوضح */
+                }
+
+                100% {
+                    transform: translateY(0px);
+                }
+            }
+        </style>
+
+
+    </section>
+
+
+    <!--  ************************* Our Packages Start Here ************************** -->
+
+    <div id="Packages" class="our-services bg-white border-top big-padding container-fluid">
+        <div class="container-xl p-0 max-1200">
+            <div class="section-title row">
+                <h2 class="HeroDesc">Our Packages</h2>
+                <p style="font-size: 1.1rem; font-weight: 600;">
+                    We offer multiple packages and transparent pricing to suit different levels of work.
+                    Whether you're a small business or a large corporation
+                </p>
+            </div>
+            <div class="container-xl max-1200">
+                <div class="row">
+                    <!-- Kickstart Package -->
+                    <div class="col-md-4 mb-4">
+                        <div class="border rounded text-center p-4 clickable-card" data-bs-toggle="modal"
+                            data-bs-target="#modalKickstart">
+                            <img src="assets/images/services/process1.png" alt="">
+                            <h5 class="fw-bolder my-3 HeroDesc">ONLINE KICKSTART PACKAGE</h5>
+                            <p class="fs-6" style="font-size: medium; font-weight: 500;">
+                                Help SMEs establish a basic online presence.
+                            </p>
+                            <p class="click-hint" style="color: orange; font-weight: 700; font-size: small;">Learn
+                                More
+                                <i class="bi bi-arrow-right"></i></span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Business Boost Package -->
+                    <div class="col-md-4 mb-4">
+                        <div class="border rounded text-center p-4 clickable-card" data-bs-toggle="modal"
+                            data-bs-target="#modalBoost">
+                            <img src="assets/images/services/process2.png" alt="">
+                            <h5 class="fw-bolder my-3 HeroDesc">BUSINESS BOOST PACKAGE</h5>
+                            <p class="fs-6" style="font-size: medium; font-weight: 500;">
+                                Rapid growth for SMEs seeking to attract more clients.
+                            </p>
+                            <p class="click-hint" style="color: orange; font-weight: 700; font-size: small;">Learn
+                                More
+                                <i class="bi bi-arrow-right"></i></span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Market Leader Package -->
+                    <div class="col-md-4 mb-4">
+                        <div class="border rounded text-center p-4 clickable-card" data-bs-toggle="modal"
+                            data-bs-target="#modalLeader">
+                            <img src="assets/images/services/process3.png" alt="">
+                            <h5 class="fw-bolder my-3 HeroDesc">MARKET LEADER PACKAGE</h5>
+                            <p class="fs-6" style="font-size: medium; font-weight: 500;">
+                                Take the lead in the local market or expand into Europe.
+                            </p>
+                            <p class="click-hint" style="color: orange; font-weight: 700; font-size: small;">Learn
+                                More
+                                <i class="bi bi-arrow-right"></i></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <style>
+            .clickable-card {
+                transition: transform 0.3s, box-shadow 0.3s;
+                cursor: pointer;
+            }
+
+            .clickable-card:hover {
+                transform: scale(1.03);
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+            }
+
+            .click-hint {
+                font-size: small;
+                color: #888;
+                margin-top: 10px;
+            }
+        </style>
+        <style>
+            .modal-body h6 {
+                margin-top: 20px;
+            }
+
+            .modal-body ul {
+                margin-bottom: 20px;
+            }
+
+            .modal-header .modal-title {
+                background: linear-gradient(45deg, #ffffff, #00aaff);
+                -webkit-background-clip: text;
+                color: transparent;
+            }
+        </style>
+    </div>
+
+    <!-- Kickstart Modal -->
+
+    <div class="modal fade" id="modalKickstart" tabindex="-1" aria-labelledby="modalKickstartLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content text-white border-0" style="
+          background: linear-gradient(135deg, #6a87a5, #4ca1af);
+          border-radius: 1.5rem;
+          box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+          font-family: 'Segoe UI', sans-serif;
+        ">
+
+                <!-- Header -->
+                <div class="modal-header border-0"
+                    style="border-top-left-radius: 1.5rem; border-top-right-radius: 1.5rem;">
+                    <h4 class="modal-title fw-bold" id="modalKickstartLabel">
+                        🚀 ONLINE KICKSTART PACKAGE
+                    </h4>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+
+                <!-- Body -->
+                <div class="modal-body px-5 py-4">
+                    <!-- Section: Social Media -->
+                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;">📱 Social Media
+                        Management
+                    </h5>
+                    <ul class="list-unstyled ms-3 mb-4 text-white" style="font-size: 1rem;">
+                        <li>One platform (Instagram or Facebook)</li>
+                        <li>8 posts/month (client content)</li>
+                        <li>20 basic interactions/month</li>
+                    </ul>
+
+                    <!-- Section: SEO -->
+                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;">🔍 SEO</h5>
+                    <ul class="list-unstyled ms-3 mb-4 text-white" style="font-size: 1rem;">
+                        <li>Google My Business Optimization</li>
+                        <li>3 keywords research + 1 page meta</li>
+                    </ul>
+
+                    <!-- Section: Marketing -->
+                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;">📣 Marketing</h5>
+                    <ul class="list-unstyled ms-3 mb-4 text-white" style="font-size: 1rem;">
+                        <li>Simple ad creation (Facebook/Instagram)</li>
+                    </ul>
+
+                    <!-- Section: Report -->
+                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;">📊 Monthly Report</h5>
+                    <ul class="list-unstyled ms-3 mb-4 text-white" style="font-size: 1rem;">
+                        <li>Insights: reach, interactions, search data</li>
+                    </ul>
+
+                    <hr class="border-light">
+
+                    <!-- Duration and Price -->
+                    <div class="d-flex justify-content-between align-items-center mb-3 flex-wrap"
+                        style="font-size: 1.2rem;">
+                        <p class="m-0"><strong>🕒 Duration:</strong> 1 Month</p>
+                        <p class="m-0"><strong>💶 Price:</strong> <span style="color: #ffdd57;">250 EUR</span>/month
+                        </p>
+                    </div>
+
+                    <!-- Important Note -->
+                    <div class="alert alert-warning text-dark fw-bold rounded-3 mt-4 text-center"
+                        style="background-color: #f77979; font-size: 1rem;">
+                        📸 Note: Client must provide own photos/videos (e.g. nail photos, dishes)
+                    </div>
+                </div>
+            </div>
+        </div>
+        <style>
+            .modal-content li {
+                transition: all 0.3s ease;
+                position: relative;
+                padding-left: 0.5rem;
+            }
+
+            .modal-content li:hover {
+                color: #fcd34d;
+                font-weight: 500;
+                transform: scale(1.02);
+                text-shadow: 0 0 5px rgba(252, 211, 77, 0.6);
+                cursor: default;
+            }
+        </style>
+    </div>
+
+    <!-- Boost Modal -->
+
+    <div class="modal fade" id="modalBoost" tabindex="-1" aria-labelledby="modalBoostLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content text-white border-0" style="
+          background: linear-gradient(135deg, #6a87a5, #4ca1af);
+                border-radius: 1.5rem;
+                box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+                font-family: 'Segoe UI', sans-serif;
+              ">
+
+                <!-- Header -->
+                <div class="modal-header border-0"
+                    style="border-top-left-radius: 1.5rem; border-top-right-radius: 1.5rem;">
+                    <h4 class="modal-title fw-bold" id="modalBoostLabel">🚀 BUSINESS BOOST PACKAGE</h4>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+
+                <!-- Body -->
+                <div class="modal-body px-5 py-4">
+
+                    <!-- Social Media -->
+                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;">📱 Social Media
+                        Management
+                    </h5>
+                    <ul class="list-unstyled ms-3 mb-4 text-white" style="font-size: 1rem;">
+                        <li>Management of <strong>2 platforms</strong> (Instagram + Facebook or TikTok)</li>
+                        <li>12 posts/month (including 2 short videos, content by client)</li>
+                        <li>50 interactions/month + basic AI chatbot</li>
+                    </ul>
+
+                    <!-- SEO -->
+                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;">🔍 SEO</h5>
+                    <ul class="list-unstyled ms-3 mb-4 text-white" style="font-size: 1rem;">
+                        <li>5 keywords research + full site optimization</li>
+                        <li>2 local backlinks creation</li>
+                    </ul>
+
+                    <!-- Marketing -->
+                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;">📣 Marketing</h5>
+                    <ul class="list-unstyled ms-3 mb-4 text-white" style="font-size: 1rem;">
+                        <li>Facebook/Instagram ads management (100 EUR budget by client)</li>
+                        <li>SEO blog post writing (500 words, photos by client)</li>
+                    </ul>
+
+                    <!-- Report -->
+                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;">📊 Detailed Report</h5>
+                    <ul class="list-unstyled ms-3 mb-4 text-white" style="font-size: 1rem;">
+                        <li>Website visits, keyword rankings, performance overview</li>
+                    </ul>
+
+                    <hr class="border-light">
+
+                    <!-- Duration & Price -->
+                    <div class="d-flex justify-content-between align-items-center mb-3 flex-wrap"
+                        style="font-size: 1.2rem;">
+                        <p class="m-0"><strong>🕒 Duration:</strong> 1 Month</p>
+                        <p class="m-0"><strong>💶 Price:</strong> <span style="color: #ffdd57;">600 EUR</span>/month
+                        </p>
+                    </div>
+
+                    <!-- Important Note -->
+                    <div class="alert alert-warning text-dark fw-bold rounded-3 mt-4 text-center"
+                        style="background-color: #f77979; font-size: 1rem;">
+                        📸 Note: Client must provide own photos/videos for posts and blog.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <style>
+            .modal-content li {
+                transition: all 0.3s ease;
+                position: relative;
+                padding-left: 0.5rem;
+            }
+
+            .modal-content li:hover {
+                color: #fcd34d;
+                font-weight: 500;
+                transform: scale(1.02);
+                text-shadow: 0 0 5px rgba(252, 211, 77, 0.6);
+                cursor: default;
+            }
+        </style>
+    </div>
+
+    <!-- Leader Modal -->
+    <div class="modal fade" id="modalLeader" tabindex="-1" aria-labelledby="modalLeaderLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content text-white border-0" style="
+          background: linear-gradient(135deg, #6a87a5, #4ca1af);
+            border-radius: 1.5rem;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            font-family: 'Segoe UI', sans-serif;
+          ">
+
+                <!-- Header -->
+                <div class="modal-header border-0"
+                    style="border-top-left-radius: 1.5rem; border-top-right-radius: 1.5rem;">
+                    <h4 class="modal-title fw-bold" id="modalLeaderLabel">🚀 MARKET LEADER PACKAGE</h4>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+
+                <!-- Body -->
+                <div class="modal-body px-5 py-4">
+
+                    <!-- Social Media -->
+                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;">📱 Social Media
+                        Management
+                    </h5>
+                    <ul class="list-unstyled ms-3 mb-4 text-white" style="font-size: 1rem;">
+                        <li>Management of <strong>3 platforms</strong> (Instagram, Facebook, TikTok, or LinkedIn)
+                        </li>
+                        <li>20 posts/month (includes 4 short videos, content by client)</li>
+                        <li>Unlimited interactions (AI chatbot + human support)</li>
+                    </ul>
+
+                    <!-- SEO -->
+                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;">🔍 SEO</h5>
+                    <ul class="list-unstyled ms-3 mb-4 text-white" style="font-size: 1rem;">
+                        <li>10 keywords research + full site optimization</li>
+                        <li>5 high-quality backlinks creation</li>
+                        <li>3 SEO blog posts (500–700 words each, photos by client)</li>
+                    </ul>
+
+                    <!-- Marketing -->
+                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;">📣 Marketing</h5>
+                    <ul class="list-unstyled ms-3 mb-4 text-white" style="font-size: 1rem;">
+                        <li>Multi-channel ads management (Google + Meta, 200 EUR budget by client)</li>
+                        <li>Email marketing: 1 campaign (content by client)</li>
+                        <li>AI analysis: keyword forecasts & customer behavior prediction</li>
+                    </ul>
+
+                    <!-- Report -->
+                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;">📊 Report & Strategy
+                    </h5>
+                    <ul class="list-unstyled ms-3 mb-4 text-white" style="font-size: 1rem;">
+                        <li>Advanced analytics report + 1 strategic consulting session</li>
+                    </ul>
+
+                    <hr class="border-light">
+
+                    <!-- Duration & Price -->
+                    <div class="d-flex justify-content-between align-items-center mb-3 flex-wrap"
+                        style="font-size: 1.2rem;">
+                        <p class="m-0"><strong>🕒 Duration:</strong> 1 Month</p>
+                        <p class="m-0"><strong>💶 Price:</strong> <span style="color: #ffdd57;">1200
+                                EUR</span>/month
+                        </p>
+                    </div>
+
+                    <!-- Important Note -->
+                    <div class="alert alert-warning text-dark fw-bold rounded-3 mt-4 text-center"
+                        style="background-color: #f77979; font-size: 1rem;">
+                        📸 Note: Client must provide own photos/videos for posts, blogs, and emails.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!--  ************************* Services Start Here ************************** -->
+
+    <div id="services" class="service big-padding bg-white border-top container-fluid px-4 py-5">
+        <div class="container-xl p-0">
+            <div class="section-title row mb-3">
+                <h2 class=" HeroDesc">Our Services</h2>
+                <p style="font-size: 1.1rem;">We blend creativity with strategy to deliver tailored digital
+                    marketing
+                    and social media solutions,
+                    covering the
+                    following this services into each package:
+                </p>
+            </div>
+            <style>
+                .service-card {
+                    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100%;
+                    background-color: #ffffff;
+                    /* اللون الافتراضي للبطاقة */
+                }
+
+                .service-card:hover {
+                    transform: translateY(-10px);
+                    /* تأثير رفع */
+                    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+                    /* تأثير الظل */
+                    background: linear-gradient(135deg, #00b4ff, #003366);
+                    /* تدرج اللون الأزرق */
+                    transition-delay: 0.1s;
+                    /* تأخير التأثيرات بعد مرور الماوس */
+                }
+
+                /* تحسين النص داخل البطاقة */
+                .service-card h4 {
+                    font-size: 18px;
+                    font-weight: bold;
+                    color: #333;
+                    margin: 0;
+                    transition: color 0.3s ease;
+                    /* تأثير التغيير عند المرور */
+                }
+
+                .service-card:hover h4 {
+                    color: white;
+                    /* تغيير لون النص إلى الأبيض عند التمرير */
+                    transition-delay: 0.1s;
+                    /* تأخير تغيير لون النص */
+                }
+
+                .service-card img {
+                    border-radius: 40px;
+                    max-height: 200px;
+                    object-fit: cover;
+                    width: 100%;
+                    /* لضبط العرض */
+                }
+
+                .service-card .bg-white {
+                    border-radius: 40px;
+                    padding: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100%;
+                }
+
+                /* تعديل الألوان */
+                .service-card {
+                    background-color: #ff7f00;
+                    /* لون البرتقالي الفاتح */
+                    border-radius: 40px;
+                }
+
+                .service-card .p-3 {
+                    text-align: center;
+                }
+            </style>
+
+            <div class="row">
+                <div class="col-xl-3 col-md-6 mb-4">
+                    <div class="service-card bg-white shadow-md">
+                        <img src="assets/images/case/01.jpg" alt="">
+                        <div class="p-3 text-center">
+                            <h4>Social Media Management</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 mb-4">
+                    <div class="service-card bg-white shadow-md">
+                        <img src="assets/images/case/02.jpg" alt="">
+                        <div class="p-3 text-center">
+                            <h4>Marketing</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 mb-4">
+                    <div class="service-card bg-white shadow-md">
+                        <img src="assets/images/case/03.jpg" alt="">
+                        <div class="p-3 text-center">
+                            <h4>Report</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 mb-4">
+                    <div class="service-card bg-white shadow-md">
+                        <img src="assets/images/case/04.jpg" alt="">
+                        <div class="p-3 text-center">
+                            <h4>SEO</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- ################## SUMMARY TABLE OF 3 PACKAGES #################### -->
+
+    <div id="Summary" class="container py-5">
+        <div class="text-center mb-5">
+            <h2 style="font-weight: 600; font-size: 1.4rem; color: #007BFF;">Packages Summary </h2>
+            <p style="font-size: 1.1rem;">Compare our service packages and choose the one that suits
+                you best.</p>
+        </div>
+        <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="pricing-card text-center h-100">
+                    <div class="pricing-title">Online Kickstart</div>
+                    <div class="pricing-price"> starting from €250/month</div>
+                    <div class="pricing-feature">- 1 Platform, 8 Posts/month</div>
+                    <div class="pricing-feature">- GMB + 3 Keywords</div>
+                    <div class="pricing-feature">- 1 Simple Ad</div>
+                    <div class="pricing-feature">- Basic Report</div>
+                    <div class="pricing-feature">- Client provides photos/videos</div>
+                </div>
+            </div>
+
+            <!-- Card 2 (Recommended) -->
+            <div class="col-md-4">
+                <div class="pricing-card text-center h-100 recommended">
+                    <div class="pricing-title">Business Boost</div>
+                    <div class="pricing-price">starting from €600/month</div>
+                    <div class="pricing-feature">- 2 Platforms, 12 Posts (2 videos)</div>
+                    <div class="pricing-feature">- SEO + AI analysis</div>
+                    <div class="pricing-feature">- Ads + 1 blog</div>
+                    <div class="pricing-feature">- Detailed Report</div>
+                    <div class="pricing-feature">- Client provides photos/videos</div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="pricing-card text-center h-100">
+                    <div class="pricing-title">Market Leader</div>
+                    <div class="pricing-price">starting from €1200/month</div>
+                    <div class="pricing-feature">- 3 Platforms, 20 Posts (4 videos)</div>
+                    <div class="pricing-feature">- Full SEO + AI + Email</div>
+                    <div class="pricing-feature">- Multi-channel ads</div>
+                    <div class="pricing-feature">- Advanced Report + Consulting</div>
+                    <div class="pricing-feature">- Client provides photos/videos</div>
+                </div>
+            </div>
+        </div>
+        <style>
+            .pricing-card {
+                border: 1px solid #eee;
+                border-radius: 15px;
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+                padding: 30px 20px;
+                background: #fff;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.03);
+                text-align: left;
+                /* محاذاة النص إلى اليسار في البطاقة */
+            }
+
+            .pricing-card:hover {
+                transform: translateY(-8px);
+                box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+            }
+
+            .pricing-title,
+            .pricing-price {
+                text-align: left;
+                /* محاذاة العنوان والسعر إلى اليسار */
+                margin-bottom: 15px;
+            }
+
+            .pricing-title {
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+
+            .pricing-price {
+                font-size: 2rem;
+                font-weight: bold;
+                color: #007bff;
+            }
+
+            .pricing-feature {
+                margin-bottom: 10px;
+                font-size: 0.95rem;
+                text-align: left;
+                /* محاذاة النقاط داخل كل ميزة إلى اليسار */
+            }
+
+            .recommended {
+                border: 2px solid #28a745;
+                position: relative;
+            }
+
+            .recommended::before {
+                content: "Recommended";
+                position: absolute;
+                top: -12px;
+                left: 50%;
+                transform: translateX(-50%);
+                background: #28a745;
+                color: white;
+                font-size: 0.8rem;
+                padding: 2px 8px;
+                border-radius: 12px;
+            }
+        </style>
+    </div>
+
+    <!--  ************************* Optional Add-ONS Start Here ************************** -->
+
+    <div id="team" class="our-services bg-light border-top py-5">
+        <div class="container-xl max-1200">
+            <div class="row mb-5">
+                <div class="section-title text-center">
+                    <h2 class="HeroDesc" style="font-weight: 600;">Optional Add-Ons</h2>
+                    <p>Francis-tech does not include photo/video production in the packages. clients must provide
+                        photos/videos. if needed, we offer:</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <!-- Photography -->
+                <div class="col-md-4 mb-4">
+                    <div class="premium-card text-center h-100">
+                        <h5>Photography</h5>
+                        <p class="fs-5">150 € / session</p>
+                        <p>(10–15 photos)</p>
+                    </div>
+                </div>
+                <!-- Video Production -->
+                <div class="col-md-4 mb-4">
+                    <div class="premium-card text-center h-100">
+                        <h5>Video Production</h5>
+                        <p class="fs-5">200 € / video</p>
+                        <p>(15–30 sec)</p>
+                    </div>
+                </div>
+                <!-- Combo Package -->
+                <div class="col-md-4 mb-4">
+                    <div class="premium-card text-center h-100">
+                        <h5>Combo Package</h5>
+                        <p class="fs-5">300 € / session</p>
+                        <p>(10 photos + 1 video)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <style>
+            .premium-card {
+                background: linear-gradient(135deg, #474769, #2c2c3d);
+                color: #fff;
+                border-radius: 20px;
+                padding: 30px 20px;
+                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+
+            .premium-card:hover {
+                transform: translateY(-10px);
+                box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+            }
+
+            .premium-card h5 {
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: #007bff;
+            }
+
+            .premium-card p {
+                font-size: 1rem;
+                margin: 10px 0 0;
+                color: #ddd;
+            }
+
+            .section-title p {
+                font-size: 1rem;
+                color: #666;
+            }
+        </style>
+
+    </div>
+
+
+    <!--  ************************* Woithout SEO Start Here ************************** -->
+
+    <section class="seo-summary-section">
+        <div class="seo-summary-container">
+            <h2>SEO Services Without a Website</h2>
+            <p class="lead">Even without a website, your business can appear on Google and gain visibility. Here's
+                how:
+            </p>
+
+            <div class="seo-features-grid">
+                <div class="seo-feature-box">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <span>Google My Business setup & management</span>
+                </div>
+                <div class="seo-feature-box">
+                    <i class="fas fa-users"></i>
+                    <span>Optimized social media presence</span>
+                </div>
+                <div class="seo-feature-box">
+                    <i class="fas fa-comment-dots"></i>
+                    <span>Review and reputation strategy</span>
+                </div>
+                <div class="seo-feature-box">
+                    <i class="fas fa-globe-europe"></i>
+                    <span>Exposure on third-party platforms</span>
+                </div>
+                <div class="seo-feature-box">
+                    <i class="fas fa-code"></i>
+                    <span>Optional branded one-page website</span>
+                </div>
+            </div>
+
+            <a href="assets/PDF/1.pdf" class="btn-download" download>
+                📥 Download Full SEO Strategy (PDF)
+            </a>
+        </div>
+        <style>
+            .seo-summary-section {
+                background: linear-gradient(135deg, #88b9f5, #ffffff);
+                padding: 100px 20px;
+                font-family: 'Poppins', sans-serif;
+                color: #1a1a1a;
+            }
+
+            .seo-summary-container {
+                max-width: 1100px;
+                margin: auto;
+                text-align: center;
+            }
+
+            .seo-summary-section h2 {
+                font-size: 3rem;
+                font-weight: 800;
+                color: #007BFF;
+                margin-bottom: 20px;
+            }
+
+            .seo-summary-section p.lead {
+                font-size: 1.25rem;
+                color: #5b5b5b;
+                max-width: 750px;
+                margin: 0 auto 50px;
+            }
+
+            .seo-features-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+                gap: 30px;
+                margin-bottom: 60px;
+            }
+
+            .seo-feature-box {
+                background: rgba(255, 255, 255, 0.7);
+                backdrop-filter: blur(8px);
+                border-radius: 20px;
+                padding: 30px 25px;
+                box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+                text-align: center;
+                opacity: 0;
+                transform: translateY(30px);
+                transition: opacity 0.8s ease, transform 0.8s ease;
+            }
+
+            .seo-feature-box.visible {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+            .seo-feature-box:hover {
+                transform: translateY(-6px);
+                box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+                background: linear-gradient(90deg, #7183bd, #007BFF);
+            }
+
+            .seo-feature-box i {
+                font-size: 32px;
+                color: #007BFF;
+                margin-bottom: 15px;
+            }
+
+            .seo-feature-box span {
+                display: block;
+                font-size: 1.05rem;
+                font-weight: 600;
+                color: #2b2b2b;
+            }
+
+            .seo-summary-section .btn-download {
+                background: linear-gradient(90deg, #1c274c, #007BFF);
+                color: #fff;
+                padding: 15px 35px;
+                font-size: 1.1rem;
+                border-radius: 12px;
+                font-weight: 600;
+                text-decoration: none;
+                box-shadow: 0 6px 20px rgba(0, 123, 255, 0.25);
+                transition: all 0.3s ease;
+                display: inline-block;
+            }
+
+            .seo-summary-section .btn-download:hover {
+                background: linear-gradient(90deg, #007BFF, #1c274c);
+                transform: scale(1.03);
+            }
+        </style>
+    </section>
+    <!--  ************************* Contact Us Start Here ************************** -->
+
+    <!-- FontAwesome CDN -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <!-- Scroll Animation Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const boxes = document.querySelectorAll('.seo-feature-box');
+
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.2
+            });
+
+            boxes.forEach((box, index) => {
+                // Add staggered delay
+                box.style.transitionDelay = `${index * 0.2}s`;
+                observer.observe(box);
+            });
+        });
+    </script>
+    <footer id="contact" class="bg-dark text-white big-padding pb-0">
+        <div class="section-title row text-center">
+            <h2 class="HeroDesc">Contact Us</h2>
+        </div>
+
+        <!-- MAP -->
+        <div class="container mt-4 mb-4">
+            <h3 style="color: white;">Our Location</h3>
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe style="width: 100%" height="300" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=15%20avenue%20de%20franche%20comt%C3%A9%2078450%20villepreux&z=14&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTACT INFO -->
+        <div class="container-xl">
+            <div class="row g-4 justify-content-between">
+                <!-- Left Column: SEO Message -->
+                <div class="col-md-5 col-12">
+                    <div class="aboutcol shadow-lg p-3 p-md-5 text-start">
+                        <h4 class="text-white fw-bold mb-3">Appear on Google without a Website</h4>
+                        <p class="mb-2">“Even without a website, we help you appear on Google through</p>
+                        <p class="mb-2">Google My Business, social media, and other platforms.</p>
+                        <p class="mb-2">For example, when someone searches ‘nail salon near me’, your info will show
+                            up
+                            first thanks to
+                            local SEO. If you want even better optimization, we can create a simple website at a
+                            reasonable cost.”</p>
+                    </div>
+                </div>
+
+                <!-- Right Column: Info & Links -->
+                <div class="col-md-6 col-12">
+                    <div class="row">
+                        <!-- Address -->
+                        <div class="col-md-6 col-12 mb-4">
+                            <div class="d-flex align-items-start">
+                                <div class="me-3 text-center">
+                                    <i class="bi fs-1 bi-geo-alt" style="color: orange;"></i>
+                                </div>
+                                <div>
+                                    <h5 class="text-light fw-bolder fs-5 fs-md-3">15 Avenue de Franche Comté<br>
+                                        78450 Villepreux, France
+                                        <img src="../../assets/img/france.png" style="width: 50px; height: auto;"
+                                            alt="France Flag" />
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Phone + Social Media -->
+                        <div class="col-md-6 col-12 mb-4">
+                            <div class="d-flex align-items-start">
+                                <div class="me-3 text-center">
+                                    <i class="bi fs-1 bi-telephone-inbound" style="color: orange;"></i>
+                                </div>
+                                <div>
+                                    <h5 class="text-light fw-bolder fs-5 mb-0">+33 6 95 84 69 43</h5>
+                                    <p class="fs-6 mb-0 ps-1">Give us a Call</p>
+                                </div>
+                            </div>
+
+
+                            <ul class="pt-3 list-unstyled d-flex justify-content-start social-icons">
+                                <li class="me-3 fs-5">
+                                    <a href="https://www.facebook.com/francistechcompany" target="_blank"
+                                        style="color: #007bff;">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="me-3 fs-5">
+                                    <a href="https://www.instagram.com/" target="_blank"
+                                        style="color: rgb(195, 16, 195);">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="https://www.linkedin.com/company/francistech/" target="_blank"
+                                        style="color: #0a61bd;">
+                                        <i class="bi bi-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Useful Links -->
+                        <div class="col-12 pt-3">
+                            <h4 class="fs-5 fw-bolder text-white ps-0"><span style="color: orange;">Useful
+                                    Links:</span>
+                            </h4>
+
+                            <ul class="row ps-0">
+                                <li class="col-6 p-3"><a class="text-white fw-bolder" href="#home">Home</a></li>
+                                <li class="col-6 p-3"><a class="text-white fw-bolder" href="#about">About Us</a>
+                                </li>
+                                <li class="col-6 p-3"><a class="text-white fw-bolder" href="#Packages">Packages</a>
+                                </li>
+                                <li class="col-6 p-3"><a class="text-white fw-bolder" href="#services">Services</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Styles -->
+        <style>
+            #contact {
+                background: linear-gradient(to right, #2d6882, #0f2027, #203a43, #2d6882);
+                color: #f1f1f1;
+            }
+
+            .aboutcol {
+                background: linear-gradient(135deg, #1f2937, #4b5563);
+                border-radius: 20px;
+                position: relative;
+                overflow: hidden;
+                font-size: 1rem;
+                line-height: 1.6;
+                color: #e5e7eb;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+                transition: all 0.4s ease-in-out;
+                max-width: 100%;
+                width: 100%;
+                min-height: 300px;
+            }
+
+            .aboutcol:hover {
+                transform: translateY(-8px) scale(1.02);
+                box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+            }
+
+            .aboutcol::before {
+                content: "“";
+                font-size: 6rem;
+                color: rgba(255, 255, 255, 0.1);
+                position: absolute;
+                top: -10px;
+                left: 15px;
+                z-index: 0;
+            }
+
+            .aboutcol p {
+                position: relative;
+                z-index: 1;
+                animation: fadeInUp 0.8s ease forwards;
+            }
+
+            @keyframes fadeInUp {
+                from {
+                    opacity: 0;
+                    transform: translateY(20px);
+                }
+
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            .social-icons a {
+                display: inline-block;
+                font-size: 1.5rem;
+                transition: transform 0.3s ease, color 0.3s ease;
+            }
+
+            .social-icons a:hover {
+                transform: scale(1.3);
+                color: #ff9800;
+            }
+
+            .mapouter {
+                position: relative;
+                text-align: right;
+                height: 300px;
+                width: 100%;
+            }
+
+            .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                height: 300px;
+                width: 100%;
+            }
+
+            ul li a {
+                transition: color 0.3s ease;
+            }
+
+            ul li a:hover {
+                color: #fbbf24;
+                text-decoration: underline;
+            }
+        </style>
+    </footer>
+
+
+    <div class="copy" style="text-align: center;">
+        <div class="container" style="display: flex; flex-direction: column; align-items: center;">
+            <p> &copy; All Rights Reserved | Designed and Developed by</p>
+            <a href="https://www.francis-tech.com/"
+                style="color: #007bff; font-weight: 700; font-size: large; text-align: center;">
+                Francis-Tech
+            </a>
+
+            <span style="margin-top: 10px;">
+                <a href=""><i class="fab fa-github" style="margin: 0 5px;"></i></a>
+                <a href=""><i class="fab fa-google-plus-g" style="margin: 0 5px;"></i></a>
+                <a href="https://in.pinterest.com/prabnr/pins/"><i class="fab fa-pinterest-p"
+                        style="margin: 0 5px;"></i></a>
+                <a href="https://twitter.com/prabinraja89"><i class="fab fa-twitter" style="margin: 0 5px;"></i></a>
+                <a href="https://www.facebook.com/freewebtemplatesbysmarteye"><i class="fab fa-facebook-f"
+                        style="margin: 0 5px;"></i></a>
+            </span>
+        </div>
+    </div>
+
+</body>
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
+<script src="assets/plugins/testimonial/js/owl.carousel.min.js"></script>
+<script src="assets/js/typewrite.min.js"></script>
+<script src="assets/js/script.js"></script>
+
+</html>
