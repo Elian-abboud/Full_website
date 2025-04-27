@@ -25,6 +25,7 @@
 </script>
 
 <body>
+    <!--  ************************* Header Start Here ************************** -->
     <header>
         <div id="menu-jk" class="nav-part shadow fixed-top">
             <div class="container-xl p-0">
@@ -265,7 +266,6 @@
         </script>
     </header>
 
-
     <!--  ************************* Home Start Here ************************** -->
     <div id="home" class="banner big-padding bg-white container-fluid">
         <div class="container-xl p-0 max-1200">
@@ -348,18 +348,14 @@
             .hero-image-wrapper {
                 border-radius: 20px;
                 overflow: hidden;
-                transition: transform 0.4s ease;
-                animation: moveImage 2s infinite ease-in-out;
+                /* transition: transform 0.4s ease;
+                animation: moveImage 2s infinite ease-in-out; */
             }
 
             .hero-image-wrapper img {
                 width: 100%;
                 display: block;
                 border-radius: 20px;
-            }
-
-            .hero-image-wrapper:hover {
-                transform: scale(1.015);
             }
 
             /* @keyframes for the image animation */
@@ -399,12 +395,15 @@
 
 
     <!--  ************************* About US Start Here ************************** -->
-
     <section id="about" class="about-us bg-white border-top big-padding container-fluid">
         <div class="container-xl p-0">
             <div class="section-title row">
-                <h2 class="HeroDesc">About US</h2>
-                <p style="font-size: 1.1rem; text-align: left; display: flex; justify-content: space-between;">
+                <h2 class="HeroDesc">About Us</h2>
+                <p style="font-size: 1.1rem;
+                 text-align: left;
+                 display: flex;
+                 justify-content: space-between;
+                  ">
                     Beyond technology, we have a dedicated digital marketing team that
                     helps businesses grow online. Our expertise covers SEO strategies,
                     Google My Business (GMB) optimization, social media management,
@@ -622,7 +621,7 @@
 
                     <!-- Important Note -->
                     <div class="alert alert-warning text-dark fw-bold rounded-3 mt-4 text-center"
-                        style="background-color: #f77979; font-size: 1rem;">
+                        style="background-color: #fd9696; font-size: 1rem;">
                         📸 Note: Client must provide own photos/videos (e.g. nail photos, dishes)
                     </div>
                 </div>
@@ -709,7 +708,7 @@
 
                     <!-- Important Note -->
                     <div class="alert alert-warning text-dark fw-bold rounded-3 mt-4 text-center"
-                        style="background-color: #f77979; font-size: 1rem;">
+                        style="background-color: #fd9696; font-size: 1rem;">
                         📸 Note: Client must provide own photos/videos for posts and blog.
                     </div>
                 </div>
@@ -800,7 +799,7 @@
 
                     <!-- Important Note -->
                     <div class="alert alert-warning text-dark fw-bold rounded-3 mt-4 text-center"
-                        style="background-color: #f77979; font-size: 1rem;">
+                        style="background-color: #fd9696; font-size: 1rem;">
                         📸 Note: Client must provide own photos/videos for posts, blogs, and emails.
                     </div>
                 </div>
@@ -933,7 +932,6 @@
 
         </div>
     </div>
-
     <!-- ################## SUMMARY TABLE OF 3 PACKAGES #################### -->
 
     <div id="Summary" class="container py-5">
@@ -1117,7 +1115,6 @@
 
     </div>
 
-
     <!--  ************************* Woithout SEO Start Here ************************** -->
 
     <section class="seo-summary-section">
@@ -1246,32 +1243,7 @@
     </section>
     <!--  ************************* Contact Us Start Here ************************** -->
 
-    <!-- FontAwesome CDN -->
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
-    <!-- Scroll Animation Script -->
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const boxes = document.querySelectorAll('.seo-feature-box');
-
-            const observer = new IntersectionObserver(entries => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('visible');
-                        observer.unobserve(entry.target);
-                    }
-                });
-            }, {
-                threshold: 0.2
-            });
-
-            boxes.forEach((box, index) => {
-                // Add staggered delay
-                box.style.transitionDelay = `${index * 0.2}s`;
-                observer.observe(box);
-            });
-        });
-    </script>
     <footer id="contact" class="bg-dark text-white big-padding pb-0">
         <div class="section-title row text-center">
             <h2 class="HeroDesc">Contact Us</h2>
@@ -1385,12 +1357,13 @@
         <!-- Footer Styles -->
         <style>
             #contact {
-                background: linear-gradient(to right, #2d6882, #0f2027, #203a43, #2d6882);
+                /* background: linear-gradient(to right, #5fa8d3, #0e3953, #5fa8d3); */
+                background-color: #111827;
                 color: #f1f1f1;
             }
 
             .aboutcol {
-                background: linear-gradient(135deg, #1f2937, #4b5563);
+                background: linear-gradient(135deg, #4b6282, #4b5563);
                 border-radius: 20px;
                 position: relative;
                 overflow: hidden;
@@ -1471,6 +1444,32 @@
                 text-decoration: underline;
             }
         </style>
+        <!-- FontAwesome CDN -->
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+        <!-- Scroll Animation Script -->
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const boxes = document.querySelectorAll('.seo-feature-box');
+
+                const observer = new IntersectionObserver(entries => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('visible');
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                }, {
+                    threshold: 0.2
+                });
+
+                boxes.forEach((box, index) => {
+                    // Add staggered delay
+                    box.style.transitionDelay = `${index * 0.2}s`;
+                    observer.observe(box);
+                });
+            });
+        </script>
     </footer>
 
 

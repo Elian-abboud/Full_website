@@ -156,7 +156,7 @@ the website, in dark theme
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
-  padding: 5.5rem 0 1rem;
+  padding: 1.5rem 0 1rem;
 }
 
 .section__title,
@@ -430,6 +430,7 @@ the website, in dark theme
 .about__img {
   width: 280px;
   justify-self: center;
+  border-radius: 15px;
 }
 
 .about__title {
@@ -459,6 +460,9 @@ the website, in dark theme
 }
 
 /*=============== STEPS ===============*/
+#step_decreas_paddingTop {
+  padding-top: 0;
+}
 .steps__bg {
   background-color: var(--first-color);
   padding: 3rem 2rem 2rem;
@@ -507,7 +511,6 @@ the website, in dark theme
 }
 
 /*=============== PRODUCTS ===============*/
-/* =============== SERVICES SECTION =============== */
 .services__description {
   text-align: center;
   margin-bottom: 3rem;
@@ -631,7 +634,6 @@ the website, in dark theme
 }
 
 .clients__card {
-  display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -844,12 +846,12 @@ the website, in dark theme
 
 .footer__title {
   font-size: 18px;
-  color: #fdc134;
+  color: #ff9149;
   margin-bottom: 15px;
 }
 
 .footer__section p {
-  margin: 10px 0;
+  margin: 5px;
   line-height: 1.6;
 }
 
@@ -867,7 +869,7 @@ the website, in dark theme
 
 .footer__social a {
   font-size: 22px;
-  color: #fdc134;
+  color: #ff9149;
   transition: transform 0.3s;
 }
 
@@ -884,7 +886,7 @@ the website, in dark theme
 }
 
 .footer__bottom span {
-  color: #fdc134;
+  color: blue;
 }
 
 /*=============== SCROLL UP ===============*/
@@ -1195,10 +1197,6 @@ the website, in dark theme
 
 .button:hover .ri-arrow-right-down-line {
   transform: translateX(5px); /* Move the icon horizontally on hover */
-}
-
-.home__social-links:hover {
-  background-color: #fdc134;
 }
 
 .francis-tech {
