@@ -1,0 +1,21 @@
+{
+  "home": "Accueil",
+  "about": "À propos",
+  "services": "Services",
+  "faqs": "FAQs",
+  "contact": "Contactez-nous",
+  "marketing": "Marketing",
+
+  "home_title": "Solutions logicielles intelligentes pour un avenir meilleur",
+  "home_desc": "Nous sommes une équipe de développeurs et d'ingénieurs talentueux spécialisés dans la création de logiciels personnalisés et de solutions IA pour les particuliers, les startups et les petites et moyennes entreprises.",
+  "explore_button": "Explorer",
+  "follow_us": "Suivez-nous",
+
+  "about_title": "Qui sommes-nous vraiment ?",
+  "about_desc": "Francis-Tech est une entreprise de développement de logiciels sur mesure et d'IA.",
+  "about_desc_2": "Notre entreprise de développement de logiciels livre des applications pour les entreprises et les consommateurs, basées sur notre compréhension approfondie des technologies et des marchés dans lesquels elles opèrent. Avec notre mentalité professionnelle, nous allons au-delà de la technologie pour offrir des solutions viables pour le contexte particulier de votre entreprise.",
+  "why_choose_us": "Pourquoi nous choisir ?",
+  "why_choose_1": "1- Nous livrons toujours à temps.",
+  "why_choose_2": "2- Nous sommes une entreprise de logiciels innovants, dédiée à des solutions précises et avant-gardistes.",
+  "why_choose_3": "3- Notre équipe expérimentée se concentre sur la fourniture de solutions logicielles sur mesure et efficaces."
+}

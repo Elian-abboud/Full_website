@@ -1,0 +1,21 @@
+{
+  "home": "Home",
+  "about": "About",
+  "services": "Services",
+  "faqs": "FAQs",
+  "contact": "Contact Us",
+  "marketing": "Marketing",
+
+  "home_title": "Smart Software Solutions for a Better Future",
+  "home_desc": "We are a team of talented developers and engineers who specialize in building custom software and AI solutions for individuals, startups, and small to medium-sized businesses.",
+  "explore_button": "Explore",
+  "follow_us": "Follow Us",
+
+  "about_title": "Who we really are?",
+  "about_desc": "Francis-Tech is a Custom Software and AI Development Company.",
+  "about_desc_2": "Our software development company delivers corporate and consumer applications based on our profound understanding of technologies and the markets they operate in. With our professional mindset, we look beyond technology to offer viable solutions for your particular business context.",
+  "why_choose_us": "Why choose Us?",
+  "why_choose_1": "1- We always deliver on time.",
+  "why_choose_2": "2- We're a forward-thinking software company dedicated to innovative, precise solutions.",
+  "why_choose_3": "3- Our experienced team focuses on delivering tailored, effective software solutions."
+}

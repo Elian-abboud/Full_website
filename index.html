@@ -22,10 +22,9 @@
   <title>Home Page Francis-Tech</title>
 </head>
 
+<script src="/assets/js/lang-switcher.js"></script>
 
 <body>
-  <!--==================== HEADER ====================-->
-
   <header class="header" id="header">
     <nav class="nav container">
       <a href="#" class="nav__logo">
@@ -33,25 +32,57 @@
       </a>
       <div class="nav__menu" id="nav-menu">
         <ul class="nav__list">
+
           <li class="nav__item">
-            <a href="#home" class="nav__link active-link">Home</a>
+            <a href="#home" class="nav__link active-link" data-i18n="home">Home</a>
           </li>
           <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
+            <a href="#about" class="nav__link" data-i18n="about">About</a>
           </li>
           <li class="nav__item">
-            <a href="#products" class="nav__link">Services</a>
+            <a href="#products" class="nav__link" data-i18n="services">Services</a>
           </li>
           <li class="nav__item">
-            <a href="#faqs" class="nav__link">FAQs</a>
+            <a href="#faqs" class="nav__link" data-i18n="faqs">FAQs</a>
           </li>
           <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact Us</a>
+            <a href="#contact" class="nav__link" data-i18n="contact">Contact Us</a>
           </li>
           <li class="nav__item">
             <a href="marketing-website/creative-business-website-template/index.html" class="nav__link"
-              style="color: purple;">Marketing</a>
+              data-i18n="marketing" style="color: purple;">Marketing</a>
           </li>
+
+          <!--==================== LanguageSwitcher START  ====================-->
+          <select id="language-selector" class="language-selector">
+            <option value="en">English</option>
+            <option value="fr">Français</option>
+            <style>
+              .language-selector {
+                background-color: #007bff;
+                border: 1px solid #cccccc;
+                padding: 8px 15px;
+                font-size: 16px;
+                font-family: 'Arial', sans-serif;
+                color: #ffffff;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: all 0.3s ease;
+              }
+
+              .language-selector:hover {
+                background-color: #064282;
+              }
+
+              .language-selector option {
+                padding: 10px;
+                background-color: #fff;
+                color: #333;
+              }
+            </style>
+          </select>
+          <!--==================== Language Switcher END  ====================-->
+
         </ul>
         <div class="nav__close" id="nav-close">
           <i class="ri-close-line"></i>
@@ -61,36 +92,36 @@
         <i class="ri-menu-line"></i>
       </div>
     </nav>
+
   </header>
   <main class="main">
     <!--==================== HOME ====================-->
     <section class="home" id="home">
       <div class="home__container container grid">
         <img src="assets/img/back2.png" alt="" class="home__img" style="width: auto" />
-        <div class="card" style="background: rgb(36, 94, 183);
-                              box-shadow: 0 15px 40px #FF9149;
-                              border-radius: 10px; padding: 2rem; 
-                              max-width:600px; 
-                              margin: auto;">
+        <div class="card"
+          style="background: rgb(36, 94, 183); box-shadow: 0 15px 40px #FF9149; border-radius: 10px; padding: 2rem; max-width:600px; margin: auto;">
           <div class="home__data" style="text-align: left;">
-            <h2 class="home__title" style="font-size: 2.5rem; color: #FF9149;">
+            <h2 class="home__title" style="font-size: 2.5rem; color: #FF9149;" data-i18n="home_title">
               Smart Software Solutions for <br />a Better Future
             </h2>
             <hr style="width: 50%; margin: 1rem 0; border: 1px solid #ffffff;">
-            <p class="home__description" style="color: #ffffff; font-size: 1.2rem; margin: 0;">
+            <p class="home__description" style="color: #ffffff; font-size: 1.2rem; margin: 0;" data-i18n="home_desc">
               We are a team of talented developers and engineers who specialize in building custom software and AI
-              solutions for individuals, startups, and small to medium-sized businesses.
+              solutions
+              for individuals, startups, and small to medium-sized businesses.
             </p>
 
             <a href="#about" class="button button--flex"
-              style="display: inline-flex; align-items: center; justify-content: center; background-color: #007bff; color: #ffffff; padding: 0.75rem 1.5rem; border-radius: 5px; text-decoration: none; margin-top: 1.5rem; font-size: 1rem; transition: background-color 0.3s ease;">
+              style="display: inline-flex; align-items: center; justify-content: center; background-color: #007bff; color: #ffffff; padding: 0.75rem 1.5rem; border-radius: 5px; text-decoration: none; margin-top: 1.5rem; font-size: 1rem; transition: background-color 0.3s ease;"
+              data-i18n="explore_button">
               Explore <i class="ri-arrow-right-down-line button__icon" style="margin-left: 0.5rem;"></i>
             </a>
           </div>
         </div>
 
         <div class="home__social">
-          <span class="home__social-follow">Follow Us</span>
+          <span class="home__social-follow" data-i18n="follow_us">Follow Us</span>
 
           <div class="home__social-links">
             <a href="https://www.facebook.com/francistechcompany" target="_blank" class="home__social-link">
@@ -103,7 +134,6 @@
         </div>
       </div>
     </section>
-
     <!--==================== ABOUT ====================-->
     <section class="about section container" id="about">
       <div class="about__container grid">
@@ -113,41 +143,43 @@
         </div>
 
         <div class="about__data">
-          <h2 class="section__title about__title" style="color: #0235c2;">
+          <h2 class="section__title about__title" style="color: #0235c2;" data-i18n="about_title">
             Who we really are?
           </h2>
 
-          <p class="about__description" style="font-size: 1.2em;">
-            <span style="color: #0235c2; font-weight: bold">Francis-Tech</span>
-            is a Custom Software and AI Development Company.
+          <p class="about__description" style="font-size: 1.2em;" data-i18n="about_desc">
+            <span style="color: #0235c2; font-weight: bold">Francis-Tech</span> is a Custom Software and AI Development
+            Company.
           </p>
-          <p style="line-height: 1.6;">
+          <p style="line-height: 1.6;" data-i18n="about_desc_2">
             Our software development company delivers corporate and consumer applications based on our profound
             understanding of technologies and the markets they operate in.
-            With our professional mindset, we look beyond technology to
-            offer viable solutions for your particular business context.
+            With our professional mindset, we look beyond technology to offer viable solutions for your particular
+            business
+            context.
           </p>
-          <h2 class="section__title about__title" style="color: #0235c2;">
+
+          <h2 class="section__title about__title" style="color: #0235c2;" data-i18n="why_choose_us">
             Why choose Us?
           </h2>
+
           <div class="about__details">
-            <h4 class="about__details-description" style="font-size: 1.08em;">
-              <span style="font-weight: bold; color: #007bff; ">1-</span>We always deliver on time.
+            <h4 class="about__details-description" style="font-size: 1.08em;" data-i18n="why_choose_1">
+              <span style="font-weight: bold; color: #007bff;">1-</span>1- We always deliver on time.
             </h4>
-            <h4 class="about__details-description" style="font-size: 1.08em;">
-              <span style="font-weight: bold; color: #007bff;">2-</span> We're a forward-thinking software company
-              dedicated to innovative, precise solutions.
+            <h4 class="about__details-description" style="font-size: 1.08em;" data-i18n="why_choose_2">
+              <span style="font-weight: bold; color: #007bff;">2-</span>2- We're a forward-thinking software company
+              dedicated
+              to innovative, precise solutions.
             </h4>
-            <h4 class="about__details-description" style="font-size: 1.08em;">
-              <span style="font-weight: bold; color: #007bff;">3-</span> Our experienced team focuses on delivering
+            <h4 class="about__details-description" style="font-size: 1.08em;" data-i18n="why_choose_3">
+              <span style="font-weight: bold; color: #007bff;">3-</span>3- Our experienced team focuses on delivering
               tailored, effective software solutions.
             </h4>
-
           </div>
         </div>
       </div>
     </section>
-
     <!--==================== STEPS ====================-->
     <section class="steps section container" id="step_decreas_paddingTop">
       <div class="steps__bg">
@@ -285,7 +317,7 @@
             <p class="service__detail">
               Comprehensive digital marketing strategies including SEO, social media, and content marketing.
             </p>
-            <a href="/marketing-website/creative-business-website-template/index.html" class="service__button">LINK</a>
+            <a href="marketing-website/creative-business-website-template/index.html" class="service__button">LINK</a>
 
 
           </div>
