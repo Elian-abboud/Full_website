@@ -45,26 +45,77 @@
 
                         <div id="menu" class="collapse d-lg-block">
                             <ul class="fw-bold nav-list fs-8 text-uppercase">
-                                <li class="nav-item"><a href="#home" class="nav-link mobile-menu-link">Home</a></li>
-                                <li class="nav-item"><a href="#about" class="nav-link mobile-menu-link">About Us</a>
-                                </li>
-                                <li class="nav-item"><a href="#Packages" class="nav-link mobile-menu-link">Packages</a>
-                                </li>
-                                <li class="nav-item"><a href="#services" class="nav-link mobile-menu-link">Services</a>
-                                </li>
-                                <li class="nav-item"><a href="#contact" class="nav-link mobile-menu-link">Contact Us</a>
+                                <li class="nav-item">
+                                    <a href="#home" class="nav-link mobile-menu-link" data-i18n="nav_home">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="../../index.html"
-                                        class="nav-link mobile-menu-link highlight-link">Francis-Tech</a>
+                                    <a href="#about" class="nav-link mobile-menu-link" data-i18n="nav_about">About
+                                        Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#Packages" class="nav-link mobile-menu-link"
+                                        data-i18n="nav_packages">Packages</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#services" class="nav-link mobile-menu-link"
+                                        data-i18n="nav_services">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#contact" class="nav-link mobile-menu-link" data-i18n="nav_contact">Contact
+                                        Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="../../index.html" class="nav-link mobile-menu-link highlight-link"
+                                        data-i18n="nav_francis">Francis-Tech</a>
+                                </li>
+                                <li class="nav-item">
+                                    <!--==================== LanguageSwitcher START  ====================-->
+                                    <!--==================== LanguageSwitcher START  ====================-->
+                                    <!--==================== LanguageSwitcher START  ====================-->
+                                    <link
+                                        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+                                        rel="stylesheet">
+
+                                    <script src="/assets/js/lang-switcher-2.js"></script>
+                                    <select id="language-selector" class="language-selector">
+                                        <option value="en">En</option>
+                                        <option value="fr">Fr</option>
+                                        <style>
+                                            .language-selector {
+                                                background-color: #007bff;
+                                                border: 1px solid #cccccc;
+                                                padding: 8px 15px;
+                                                width: 70px;
+                                                font-family: 'Arial', sans-serif;
+                                                color: #ffffff;
+                                                border-radius: 5px;
+                                                cursor: pointer;
+                                                transition: all 0.3s ease;
+                                            }
+
+                                            .language-selector:hover {
+                                                background-color: #064282;
+                                            }
+
+                                            .language-selector option {
+                                                padding: 10px;
+                                                background-color: #fff;
+                                                color: #333;
+                                            }
+                                        </style>
+                                    </select>
+                                    <!--==================== Language Switcher END  ====================-->
+                                    <!--==================== Language Switcher END  ====================-->
+                                    <!--==================== Language Switcher END  ====================-->
+
                                 </li>
                             </ul>
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
         <style>
             html,
             body {
@@ -271,19 +322,18 @@
         <div class="container-xl p-0 max-1200">
             <div class="row align-items-center">
                 <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-duration="1000">
-                    <h1 class="hero-title">
+                    <h1 class="hero-title" data-i18n="home_title" style="font-size:xx-large;">
                         We Help You Take Your Business to The <span>Next Level</span>
                     </h1>
-                    <p class="HeroDesc" style="color: #003366;">
+                    <p class="HeroDesc" style="color: #003366;" data-i18n="home_description">
                         We have a dedicated digital marketing team that helps businesses grow online through SEO,
-                        Google
-                        My Business optimization, social media management, and targeted advertising. Whether or not
-                        a
-                        business has a
-                        website, we tailor our strategies to maximize visibility, engagement, and growth.
+                        Google My Business optimization, social media management, and targeted advertising. Whether or
+                        not
+                        a business has a website, we tailor our strategies to maximize visibility, engagement, and
+                        growth.
                     </p>
                     <a href="#about">
-                        <button class="hero-btn">
+                        <button class="hero-btn" data-i18n="home_button">
                             Explore <i class="bi bi-chevron-right"></i>
                         </button>
                     </a>
@@ -295,7 +345,6 @@
                 </div>
             </div>
         </div>
-
         <style>
             .hero-title {
                 font-size: 2.8rem;
@@ -349,7 +398,7 @@
                 border-radius: 20px;
                 overflow: hidden;
                 /* transition: transform 0.4s ease;
-                animation: moveImage 2s infinite ease-in-out; */
+                        animation: moveImage 2s infinite ease-in-out; */
             }
 
             .hero-image-wrapper img {
@@ -385,6 +434,10 @@
         </style>
     </div>
 
+
+
+    </div>
+
     <!-- AOS Library -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -398,18 +451,15 @@
     <section id="about" class="about-us bg-white border-top big-padding container-fluid">
         <div class="container-xl p-0">
             <div class="section-title row">
-                <h2 class="HeroDesc">About Us</h2>
-                <p style="font-size: 1.1rem;
-                 text-align: left;
-                 display: flex;
-                 justify-content: space-between;
-                  ">
-                    Beyond technology, we have a dedicated digital marketing team that
-                    helps businesses grow online. Our expertise covers SEO strategies,
-                    Google My Business (GMB) optimization, social media management,
-                    and targeted advertising. Whether a business has a website or not, we
-                    adapt our SEO strategies to maximize visibility, engagement, and
-                    business growth in the digital landscape.
+                <h2 class="HeroDesc" data-i18n="about_title">About Us</h2>
+                <p style="font-size: 1.1rem; text-align: left; display: flex; justify-content: space-between;"
+                    data-i18n="about_description1">
+                    Beyond technology, we have a dedicated digital marketing team that helps businesses grow online. Our
+                    expertise covers SEO strategies,
+                    Google My Business (GMB) optimization, social media management, and targeted advertising. Whether a
+                    business has a website or not, we
+                    adapt our SEO strategies to maximize visibility, engagement, and business growth in the digital
+                    landscape.
                 </p>
             </div>
             <div class="row">
@@ -417,25 +467,24 @@
                     <img src="../creative-business-website-template/assets/images/about.png" alt="">
                 </div>
 
-
                 <div class="col-md-6 align-self-center">
-                    <h2 class="fs-1 fw-bold hero-title">We set New Bench Mark in Digital Marketing</h2>
-                    <h4 class="text-primary my-4 fw-bold">Multiple Packages</h4>
+                    <h2 class="fs-1 fw-bold hero-title" data-i18n="about_benchmark">We set New Bench Mark in Digital
+                        Marketing</h2>
+                    <h4 class="text-primary my-4 fw-bold" data-i18n="about_packages">Multiple Packages</h4>
 
-                    <p style=" font-size: 1.1rem; font-weight: 600;">We offer comprehensive digital
-                        marketing solutions
-                        that cater to all your
-                        business needs, with multiple packages and
-                        transparent pricing to suit different levels of work. Whether you're a small business or a
-                        large
+                    <p style="font-size: 1.1rem; font-weight: 600;" data-i18n="about_description2">
+                        We offer comprehensive digital marketing solutions that cater to all your business needs, with
+                        multiple packages and
+                        transparent pricing to suit different levels of work. Whether you're a small business or a large
                         corporation, we have
                         the right package for you.
                     </p>
-                    <p style=" font-size: medium; font-weight: 600;">Start today with our diverse packages that fit
-                        all
-                        budgets and digital needs. Invest in your
-                        digital marketing now and
-                        achieve the success you deserve</p>
+                    <p style="font-size: medium; font-weight: 600;" data-i18n="about_description3">
+                        Start today with our diverse packages that fit all budgets and digital needs. Invest in your
+                        digital
+                        marketing now and
+                        achieve the success you deserve.
+                    </p>
                 </div>
             </div>
         </div>
@@ -455,20 +504,54 @@
                 }
             }
         </style>
-
-
     </section>
-
 
     <!--  ************************* Our Packages Start Here ************************** -->
 
     <div id="Packages" class="our-services bg-white border-top big-padding container-fluid">
         <div class="container-xl p-0 max-1200">
             <div class="section-title row">
-                <h2 class="HeroDesc">Our Packages</h2>
-                <p style="font-size: 1.1rem; font-weight: 600;">
+
+                <h2 class="HeroDesc" data-i18n="packages_title">Our Packages</h2>
+                <div class="mb-5">
+                    <h2 class="price-highlight" data-i18n="packages_price">Starting from 199 € /month</h2>
+                </div>
+                <style>
+                    .price-highlight {
+                        font-weight: 700;
+                        color: #FF5722;
+                        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+                        animation: pulse 2s infinite;
+                        background: linear-gradient(45deg, #fff8e1, #ffffff);
+                        padding: 10px 20px;
+                        border-radius: 50px;
+                        display: inline-block;
+                        border: 2px dashed #FFC107;
+                    }
+
+                    @keyframes pulse {
+                        0% {
+                            transform: scale(1);
+                        }
+
+                        50% {
+                            transform: scale(1.05);
+                        }
+
+                        100% {
+                            transform: scale(1);
+                        }
+                    }
+
+                    .price-highlight:hover {
+                        animation: none;
+                        transform: scale(1.05);
+                        box-shadow: 0 5px 15px rgba(255, 87, 34, 0.3);
+                    }
+                </style>
+                <p style="font-size: 1.1rem; font-weight: 600;" data-i18n="packages_description">
                     We offer multiple packages and transparent pricing to suit different levels of work.
-                    Whether you're a small business or a large corporation
+                    Whether you're a small business or a large corporation.
                 </p>
             </div>
             <div class="container-xl max-1200">
@@ -478,13 +561,11 @@
                         <div class="border rounded text-center p-4 clickable-card" data-bs-toggle="modal"
                             data-bs-target="#modalKickstart">
                             <img src="assets/images/services/process1.png" alt="">
-                            <h5 class="fw-bolder my-3 HeroDesc">ONLINE KICKSTART PACKAGE</h5>
-                            <p class="fs-6" style="font-size: medium; font-weight: 500;">
-                                Help SMEs establish a basic online presence.
-                            </p>
-                            <p class="click-hint" style="color: orange; font-weight: 700; font-size: small;">Learn
-                                More
-                                <i class="bi bi-arrow-right"></i></span>
+                            <h5 class="fw-bolder my-3 HeroDesc">KICK-START</h5>
+
+                            <p class="click-hint" style="color: orange; font-weight: 700; font-size: small;"
+                                data-i18n="learn_more">
+                                Learn More <i class="bi bi-arrow-right"></i>
                             </p>
                         </div>
                     </div>
@@ -494,13 +575,11 @@
                         <div class="border rounded text-center p-4 clickable-card" data-bs-toggle="modal"
                             data-bs-target="#modalBoost">
                             <img src="assets/images/services/process2.png" alt="">
-                            <h5 class="fw-bolder my-3 HeroDesc">BUSINESS BOOST PACKAGE</h5>
-                            <p class="fs-6" style="font-size: medium; font-weight: 500;">
-                                Rapid growth for SMEs seeking to attract more clients.
-                            </p>
-                            <p class="click-hint" style="color: orange; font-weight: 700; font-size: small;">Learn
-                                More
-                                <i class="bi bi-arrow-right"></i></span>
+                            <h5 class="fw-bolder my-3 HeroDesc">BUSINESS BOOST</h5>
+
+                            <p class="click-hint" style="color: orange; font-weight: 700; font-size: small;"
+                                data-i18n="learn_more">
+                                Learn More <i class="bi bi-arrow-right"></i>
                             </p>
                         </div>
                     </div>
@@ -510,13 +589,11 @@
                         <div class="border rounded text-center p-4 clickable-card" data-bs-toggle="modal"
                             data-bs-target="#modalLeader">
                             <img src="assets/images/services/process3.png" alt="">
-                            <h5 class="fw-bolder my-3 HeroDesc">MARKET LEADER PACKAGE</h5>
-                            <p class="fs-6" style="font-size: medium; font-weight: 500;">
-                                Take the lead in the local market or expand into Europe.
-                            </p>
-                            <p class="click-hint" style="color: orange; font-weight: 700; font-size: small;">Learn
-                                More
-                                <i class="bi bi-arrow-right"></i></span>
+                            <h5 class="fw-bolder my-3 HeroDesc">MARKET LEADER</h5>
+
+                            <p class="click-hint" style="color: orange; font-weight: 700; font-size: small;"
+                                data-i18n="learn_more">
+                                Learn More <i class="bi bi-arrow-right"></i>
                             </p>
                         </div>
                     </div>
@@ -540,21 +617,23 @@
                 margin-top: 10px;
             }
         </style>
-        <style>
-            .modal-body h6 {
-                margin-top: 20px;
-            }
+    </div>
 
-            .modal-body ul {
-                margin-bottom: 20px;
-            }
+    <style>
+        .modal-body h6 {
+            margin-top: 20px;
+        }
 
-            .modal-header .modal-title {
-                background: linear-gradient(45deg, #ffffff, #00aaff);
-                -webkit-background-clip: text;
-                color: transparent;
-            }
-        </style>
+        .modal-body ul {
+            margin-bottom: 20px;
+        }
+
+        .modal-header .modal-title {
+            background: linear-gradient(45deg, #ffffff, #00aaff);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+    </style>
     </div>
 
     <!-- Kickstart Modal -->
@@ -571,8 +650,8 @@
                 <!-- Header -->
                 <div class="modal-header border-0"
                     style="border-top-left-radius: 1.5rem; border-top-right-radius: 1.5rem;">
-                    <h4 class="modal-title fw-bold" id="modalKickstartLabel">
-                        🚀 ONLINE KICKSTART PACKAGE
+                    <h4 class="modal-title fw-bold" id="modalKickstartLabel" data-i18n="modal_kickstart_title">
+                        🚀KICK-START
                     </h4>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
                         aria-label="Close"></button>
@@ -581,32 +660,40 @@
                 <!-- Body -->
                 <div class="modal-body px-5 py-4">
                     <!-- Section: Social Media -->
-                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;">📱 Social Media
-                        Management
+                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;"
+                        data-i18n="social_media_management">
+                        📱 Social Media Management
                     </h5>
                     <ul class="list-unstyled ms-3 mb-4 text-white" style="font-size: 1rem;">
-                        <li>One platform (Instagram or Facebook)</li>
-                        <li>8 posts/month (client content)</li>
-                        <li>20 basic interactions/month</li>
+                        <li data-i18n="social_media_post">- 8 posts/month (4 images & 4 videos)</li>
+                        <li data-i18n="social_media_content">- Ready-to-use images and texts for your page.</li>
                     </ul>
 
                     <!-- Section: SEO -->
-                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;">🔍 SEO</h5>
+                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;" data-i18n="seo">
+                        🔍 SEO
+                    </h5>
                     <ul class="list-unstyled ms-3 mb-4 text-white" style="font-size: 1rem;">
-                        <li>Google My Business Optimization</li>
-                        <li>3 keywords research + 1 page meta</li>
+                        <li data-i18n="local_visibility">- Local Visibility :</li>
+                        <li data-i18n="business_highlight">Your business highlighted for 3 keywords (e.g., "manicure
+                            Paris 15").</li>
                     </ul>
 
                     <!-- Section: Marketing -->
-                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;">📣 Marketing</h5>
+                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;" data-i18n="marketing">
+                        📣 Marketing
+                    </h5>
                     <ul class="list-unstyled ms-3 mb-4 text-white" style="font-size: 1rem;">
-                        <li>Simple ad creation (Facebook/Instagram)</li>
+                        <li data-i18n="targeted_advertising">- Targeted Advertising :</li>
+                        <li data-i18n="facebook_campaign">One Facebook or Instagram campaign.</li>
                     </ul>
 
                     <!-- Section: Report -->
-                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;">📊 Monthly Report</h5>
+                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;" data-i18n="monthly_report">
+                        📊 Monthly Report
+                    </h5>
                     <ul class="list-unstyled ms-3 mb-4 text-white" style="font-size: 1rem;">
-                        <li>Insights: reach, interactions, search data</li>
+                        <li data-i18n="report_details">Number of views, likes, comments, etc.</li>
                     </ul>
 
                     <hr class="border-light">
@@ -614,12 +701,13 @@
                     <!-- Duration and Price -->
                     <div class="d-flex justify-content-between align-items-center mb-3 flex-wrap"
                         style="font-size: 1.2rem;">
-                        <p class="m-0"><strong>🕒 Duration:</strong> 1 Month</p>
+                        <p class="m-0">
+                            <strong data-i18n="duration">🕒 Duration:</strong>
+                            <span data-i18n="duration_value">1 Month</span>
                         </p>
                     </div>
-
-
                 </div>
+
             </div>
         </div>
         <style>
@@ -638,22 +726,22 @@
             }
         </style>
     </div>
-
     <!-- Boost Modal -->
 
     <div class="modal fade" id="modalBoost" tabindex="-1" aria-labelledby="modalBoostLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content text-white border-0" style="
-          background: linear-gradient(135deg, #6a87a5, #4ca1af);
-                border-radius: 1.5rem;
-                box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-                font-family: 'Segoe UI', sans-serif;
-              ">
+                  background: linear-gradient(135deg, #6a87a5, #4ca1af);
+                  border-radius: 1.5rem;
+                  box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+                  font-family: 'Segoe UI', sans-serif;
+                ">
 
                 <!-- Header -->
                 <div class="modal-header border-0"
                     style="border-top-left-radius: 1.5rem; border-top-right-radius: 1.5rem;">
-                    <h4 class="modal-title fw-bold" id="modalBoostLabel">🚀 BUSINESS BOOST PACKAGE</h4>
+                    <h4 class="modal-title fw-bold" id="modalBoostLabel" data-i18n="modal_boost_title">🚀 BUSINESS BOOST
+                    </h4>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
                         aria-label="Close"></button>
                 </div>
@@ -662,33 +750,41 @@
                 <div class="modal-body px-5 py-4">
 
                     <!-- Social Media -->
-                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;">📱 Social Media
-                        Management
-                    </h5>
+                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;"
+                        data-i18n="social_media_management">📱 Social Media Management</h5>
                     <ul class="list-unstyled ms-3 mb-4 text-white" style="font-size: 1rem;">
-                        <li>Management of <strong>2 platforms</strong> (Instagram + Facebook or TikTok)</li>
-                        <li>12 posts/month (including 2 short videos, content by client)</li>
-                        <li>50 interactions/month + basic AI chatbot</li>
+                        <li data-i18n="boost_social_media_posts">- 12 posts/month:</li>
+                        <li data-i18n="boost_social_media_content">(6 images & 6 videos)</li>
+                        <li data-i18n="boost_social_media_networks">Ready-to-use content for 2 social networks</li>
                     </ul>
 
                     <!-- SEO -->
-                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;">🔍 SEO</h5>
+                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;" data-i18n="seo">🔍 SEO</h5>
                     <ul class="list-unstyled ms-3 mb-4 text-white" style="font-size: 1rem;">
-                        <li>5 keywords research + full site optimization</li>
-                        <li>2 local backlinks creation</li>
+                        <li data-i18n="boost_seo_enhanced">- Enhanced SEO:</li>
+                        <li data-i18n="boost_seo_keywords">Your business highlighted for 5 keywords + 2 recommended
+                            links.
+                        </li>
                     </ul>
 
                     <!-- Marketing -->
-                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;">📣 Marketing</h5>
+                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;" data-i18n="marketing">📣
+                        Marketing</h5>
                     <ul class="list-unstyled ms-3 mb-4 text-white" style="font-size: 1rem;">
-                        <li>Facebook/Instagram ads management (100 EUR budget by client)</li>
-                        <li>SEO blog post writing (500 words, photos by client)</li>
+                        <li data-i18n="boost_email_marketing">- Monthly Email:</li>
+                        <li data-i18n="boost_email_details">Targeted email sent to your potential clients each month
+                        </li>
+                        <li data-i18n="boost_multichannel">- Multi-Channel Advertising:</li>
+                        <li data-i18n="boost_multichannel_details">Facebook, Instagram, and Google.</li>
                     </ul>
 
                     <!-- Report -->
-                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;">📊 Detailed Report</h5>
+                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;" data-i18n="detailed_report">
+                        📊
+                        Detailed Report</h5>
                     <ul class="list-unstyled ms-3 mb-4 text-white" style="font-size: 1rem;">
-                        <li>Website visits, keyword rankings, performance overview</li>
+                        <li data-i18n="boost_clear_report">- Clear Report:</li>
+                        <li data-i18n="boost_report_details">Number of views, clicks, new contacts, etc</li>
                     </ul>
 
                     <hr class="border-light">
@@ -696,45 +792,48 @@
                     <!-- Duration & Price -->
                     <div class="d-flex justify-content-between align-items-center mb-3 flex-wrap"
                         style="font-size: 1.2rem;">
-                        <p class="m-0"><strong>🕒 Duration:</strong> 1 Month</p>
+                        <p class="m-0">
+                            <strong data-i18n="duration">🕒 Duration:</strong>
+                            <span data-i18n="duration_value">1 Month</span>
                         </p>
                     </div>
-
-
                 </div>
             </div>
         </div>
-        <style>
-            .modal-content li {
-                transition: all 0.3s ease;
-                position: relative;
-                padding-left: 0.5rem;
-            }
-
-            .modal-content li:hover {
-                color: #fcd34d;
-                font-weight: 500;
-                transform: scale(1.02);
-                text-shadow: 0 0 5px rgba(252, 211, 77, 0.6);
-                cursor: default;
-            }
-        </style>
     </div>
 
+    <style>
+        .modal-content li {
+            transition: all 0.3s ease;
+            position: relative;
+            padding-left: 0.5rem;
+        }
+
+        .modal-content li:hover {
+            color: #fcd34d;
+            font-weight: 500;
+            transform: scale(1.02);
+            text-shadow: 0 0 5px rgba(252, 211, 77, 0.6);
+            cursor: default;
+        }
+    </style>
+    </div>
     <!-- Leader Modal -->
     <div class="modal fade" id="modalLeader" tabindex="-1" aria-labelledby="modalLeaderLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content text-white border-0" style="
-          background: linear-gradient(135deg, #6a87a5, #4ca1af);
-            border-radius: 1.5rem;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-            font-family: 'Segoe UI', sans-serif;
-          ">
+                  background: linear-gradient(135deg, #6a87a5, #4ca1af);
+                    border-radius: 1.5rem;
+                    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+                    font-family: 'Segoe UI', sans-serif;
+                ">
 
                 <!-- Header -->
                 <div class="modal-header border-0"
                     style="border-top-left-radius: 1.5rem; border-top-right-radius: 1.5rem;">
-                    <h4 class="modal-title fw-bold" id="modalLeaderLabel">🚀 MARKET LEADER PACKAGE</h4>
+                    <h4 class="modal-title fw-bold" id="modalLeaderLabel" data-i18n="modal_leader_title">🚀 MARKET
+                        LEADER
+                    </h4>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
                         aria-label="Close"></button>
                 </div>
@@ -743,37 +842,42 @@
                 <div class="modal-body px-5 py-4">
 
                     <!-- Social Media -->
-                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;">📱 Social Media
-                        Management
-                    </h5>
+                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;"
+                        data-i18n="social_media_management">📱 Social Media Management</h5>
                     <ul class="list-unstyled ms-3 mb-4 text-white" style="font-size: 1rem;">
-                        <li>Management of <strong>3 platforms</strong> (Instagram, Facebook, TikTok, or LinkedIn)
-                        </li>
-                        <li>20 posts/month (includes 4 short videos, content by client)</li>
-                        <li>Unlimited interactions (AI chatbot + human support)</li>
+                        <li data-i18n="leader_social_media_posts">- 20 posts/month:</li>
+                        <li data-i18n="leader_social_media_content">(8 images & 12 videos)</li>
+                        <li data-i18n="leader_social_media_networks">Ready-to-use content for 3 social networks,
+                            unlimited
+                            responses.</li>
                     </ul>
 
                     <!-- SEO -->
-                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;">🔍 SEO</h5>
+                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;" data-i18n="seo">🔍 SEO</h5>
                     <ul class="list-unstyled ms-3 mb-4 text-white" style="font-size: 1rem;">
-                        <li>10 keywords research + full site optimization</li>
-                        <li>5 high-quality backlinks creation</li>
-                        <li>3 SEO blog posts (500–700 words each, photos by client)</li>
+                        <li data-i18n="leader_seo_visibility">- Maximum Visibility:</li>
+                        <li data-i18n="leader_seo_keywords">Your business highlighted for 10 keywords + 5 recommended
+                            links
+                        </li>
                     </ul>
 
                     <!-- Marketing -->
-                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;">📣 Marketing</h5>
+                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;" data-i18n="marketing">📣
+                        Marketing</h5>
                     <ul class="list-unstyled ms-3 mb-4 text-white" style="font-size: 1rem;">
-                        <li>Multi-channel ads management (Google + Meta)</li>
-                        <li>Email marketing: 1 campaign (content by client)</li>
-                        <li>AI analysis: keyword forecasts & customer behavior prediction</li>
+                        <li data-i18n="leader_email_marketing">- Monthly Email:</li>
+                        <li data-i18n="leader_email_details">Personalized emails to retain your clients.</li>
+                        <li data-i18n="leader_multichannel">- Multi-Channel Advertising:</li>
+                        <li data-i18n="leader_multichannel_details">Facebook, Instagram, and Google.</li>
                     </ul>
 
                     <!-- Report -->
-                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;">📊 Report & Strategy
-                    </h5>
+                    <h5 class="mb-2 fw-semibold" style="color: #fcd34d; font-size: 1.1rem;" data-i18n="report_strategy">
+                        📊
+                        Report & Strategy</h5>
                     <ul class="list-unstyled ms-3 mb-4 text-white" style="font-size: 1rem;">
-                        <li>Advanced analytics report + 1 strategic consulting session</li>
+                        <li data-i18n="leader_comprehensive_report">- Comprehensive Report & Recommendations:</li>
+                        <li data-i18n="leader_report_details">Detailed statistics and strategic advice, etc…</li>
                     </ul>
 
                     <hr class="border-light">
@@ -781,8 +885,10 @@
                     <!-- Duration & Price -->
                     <div class="d-flex justify-content-between align-items-center mb-3 flex-wrap"
                         style="font-size: 1.2rem;">
-                        <p class="m-0"><strong>🕒 Duration:</strong> 1 Month</p>
-
+                        <p class="m-0">
+                            <strong data-i18n="duration">🕒 Duration:</strong>
+                            <span data-i18n="duration_value">1 Month</span>
+                        </p>
                     </div>
 
                 </div>
@@ -799,12 +905,12 @@
     <div id="services" class="service big-padding bg-white border-top container-fluid px-4 py-5">
         <div class="container-xl p-0">
             <div class="section-title row mb-3">
-                <h2 class=" HeroDesc">Our Services</h2>
-                <p style="font-size: 1.1rem;">We blend creativity with strategy to deliver tailored digital
-                    marketing
-                    and social media solutions,
-                    covering the
-                    following this services into each package:
+                <h2 class="HeroDesc" data-i18n="our_services_title">Our Services</h2>
+                <p style="font-size: 1.1rem;" data-i18n="our_services_desc">
+                    We combine creativity and strategic insight to deliver customized digital marketing and social media
+                    solutions. Each of
+                    our packages includes the following services:
+
                 </p>
             </div>
             <style>
@@ -816,35 +922,26 @@
                     align-items: center;
                     height: 100%;
                     background-color: #ffffff;
-                    /* اللون الافتراضي للبطاقة */
                 }
 
                 .service-card:hover {
                     transform: translateY(-10px);
-                    /* تأثير رفع */
                     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-                    /* تأثير الظل */
                     background: linear-gradient(135deg, #00b4ff, #003366);
-                    /* تدرج اللون الأزرق */
                     transition-delay: 0.1s;
-                    /* تأخير التأثيرات بعد مرور الماوس */
                 }
 
-                /* تحسين النص داخل البطاقة */
                 .service-card h4 {
                     font-size: 18px;
                     font-weight: bold;
                     color: #333;
                     margin: 0;
                     transition: color 0.3s ease;
-                    /* تأثير التغيير عند المرور */
                 }
 
                 .service-card:hover h4 {
                     color: white;
-                    /* تغيير لون النص إلى الأبيض عند التمرير */
                     transition-delay: 0.1s;
-                    /* تأخير تغيير لون النص */
                 }
 
                 .service-card img {
@@ -852,7 +949,6 @@
                     max-height: 200px;
                     object-fit: cover;
                     width: 100%;
-                    /* لضبط العرض */
                 }
 
                 .service-card .bg-white {
@@ -865,10 +961,8 @@
                     height: 100%;
                 }
 
-                /* تعديل الألوان */
                 .service-card {
                     background-color: #ff7f00;
-                    /* لون البرتقالي الفاتح */
                     border-radius: 40px;
                 }
 
@@ -882,7 +976,7 @@
                     <div class="service-card bg-white shadow-md">
                         <img src="assets/images/case/01.jpg" alt="">
                         <div class="p-3 text-center">
-                            <h4>Social Media Management</h4>
+                            <h4 data-i18n="service_social_media">Social Media Management</h4>
                         </div>
                     </div>
                 </div>
@@ -890,7 +984,7 @@
                     <div class="service-card bg-white shadow-md">
                         <img src="assets/images/case/02.jpg" alt="">
                         <div class="p-3 text-center">
-                            <h4>Marketing</h4>
+                            <h4 data-i18n="service_marketing">Marketing</h4>
                         </div>
                     </div>
                 </div>
@@ -898,7 +992,7 @@
                     <div class="service-card bg-white shadow-md">
                         <img src="assets/images/case/03.jpg" alt="">
                         <div class="p-3 text-center">
-                            <h4>Report</h4>
+                            <h4 data-i18n="service_report">Report</h4>
                         </div>
                     </div>
                 </div>
@@ -906,355 +1000,89 @@
                     <div class="service-card bg-white shadow-md">
                         <img src="assets/images/case/04.jpg" alt="">
                         <div class="p-3 text-center">
-                            <h4>SEO</h4>
+                            <h4 data-i18n="service_seo">SEO</h4>
                         </div>
                     </div>
                 </div>
             </div>
-
-
         </div>
     </div>
-    <!-- ################## SUMMARY TABLE OF 3 PACKAGES #################### -->
-    <div id="Summary" class="container py-5">
-        <div class="text-center mb-5">
-            <h2 style="font-weight: 600;  color: #007BFF;">Packages Summary </h2>
-            <h2 class="price-highlight"> starting from 199 € /month</h2>
-            <style>
-                .price-highlight {
-                    font-weight: 700;
-                    color: #FF5722;
-                    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
-                    animation: pulse 2s infinite;
-                    background: linear-gradient(45deg, #fff8e1, #ffffff);
-                    padding: 10px 20px;
-                    border-radius: 50px;
-                    display: inline-block;
-                    border: 2px dashed #FFC107;
-                    margin-top: 10px;
-                }
 
-                @keyframes pulse {
-                    0% {
-                        transform: scale(1);
-                    }
-
-                    50% {
-                        transform: scale(1.05);
-                    }
-
-                    100% {
-                        transform: scale(1);
-                    }
-                }
-
-                .price-highlight:hover {
-                    animation: none;
-                    transform: scale(1.05);
-                    box-shadow: 0 5px 15px rgba(255, 87, 34, 0.3);
-                }
-            </style>
-        </div>
-
-        <div class="row g-4">
-            <!-- Card 1 -->
-            <div class="col-md-4">
-                <div class="pricing-card text-center h-100">
-                    <div class="pricing-title">Online Kickstart</div>
-                    <div class="pricing-feature">- 1 Platform, 8 Posts/month</div>
-                    <div class="pricing-feature">- GMB + 3 Keywords</div>
-                    <div class="pricing-feature">- 1 Simple Ad</div>
-                    <div class="pricing-feature">- Basic Report</div>
-                    <div class="pricing-feature">- Client provides photos/videos</div>
-                </div>
-            </div>
-
-            <!-- Card 2 (Recommended) -->
-            <div class="col-md-4">
-                <div class="pricing-card text-center h-100 recommended">
-                    <div class="pricing-title">Business Boost</div>
-                    <div class="pricing-feature">- 2 Platforms, 12 Posts (2 videos)</div>
-                    <div class="pricing-feature">- SEO + AI analysis</div>
-                    <div class="pricing-feature">- Ads + 1 blog</div>
-                    <div class="pricing-feature">- Detailed Report</div>
-                    <div class="pricing-feature">- Client provides photos/videos</div>
-                </div>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="col-md-4">
-                <div class="pricing-card text-center h-100">
-                    <div class="pricing-title">Market Leader</div>
-                    <div class="pricing-feature">- 3 Platforms, 20 Posts (4 videos)</div>
-                    <div class="pricing-feature">- Full SEO + AI + Email</div>
-                    <div class="pricing-feature">- Multi-channel ads</div>
-                    <div class="pricing-feature">- Advanced Report + Consulting</div>
-                    <div class="pricing-feature">- Client provides photos/videos</div>
-                </div>
-            </div>
-        </div>
-        <style>
-            .pricing-card {
-                border: 1px solid #eee;
-                border-radius: 15px;
-                transition: transform 0.3s ease, box-shadow 0.3s ease;
-                padding: 30px 20px;
-                background: #fff;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.03);
-                text-align: left;
-                /* محاذاة النص إلى اليسار في البطاقة */
-            }
-
-            .pricing-card:hover {
-                transform: translateY(-8px);
-                box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-            }
-
-            .pricing-title,
-            .pricing-price {
-                text-align: left;
-                /* محاذاة العنوان والسعر إلى اليسار */
-                margin-bottom: 15px;
-            }
-
-            .pricing-title {
-                font-size: 1.5rem;
-                font-weight: bold;
-            }
-
-            .pricing-price {
-                font-size: 2rem;
-                font-weight: bold;
-                color: #007bff;
-            }
-
-            .pricing-feature {
-                margin-bottom: 10px;
-                font-size: 0.95rem;
-                text-align: left;
-                /* محاذاة النقاط داخل كل ميزة إلى اليسار */
-            }
-
-            .recommended {
-                border: 2px solid #28a745;
-                position: relative;
-            }
-
-            .recommended::before {
-                content: "Recommended";
-                position: absolute;
-                top: -12px;
-                left: 50%;
-                transform: translateX(-50%);
-                background: #28a745;
-                color: white;
-                font-size: 0.8rem;
-                padding: 2px 8px;
-                border-radius: 12px;
-            }
-        </style>
-    </div>
     <!--  ************************* Optional Add-ONS Start Here ************************** -->
 
     <div id="team" class="our-services bg-light border-top py-5">
         <div class="container-xl max-1200">
             <div class="row mb-5">
                 <div class="section-title text-center">
-                    <h2 class="HeroDesc" style="font-weight: 600;">Optional Add-Ons</h2>
+                    <h2 class="HeroDesc" style="font-weight: 600;" data-i18n="optional_add_ons">Optional Add-Ons</h2>
                 </div>
                 <div class="row justify-content-center">
                     <!-- Photography -->
                     <div class="col-md-4 mb-4">
                         <div class="premium-card text-center h-100">
-                            <h5>Photography</h5>
-
+                            <h5 data-i18n="addon_photography">Photography</h5>
                         </div>
                     </div>
                     <!-- Video Production -->
                     <div class="col-md-4 mb-4">
                         <div class="premium-card text-center h-100">
-                            <h5>Video Production</h5>
-
+                            <h5 data-i18n="addon_video_production">Video Production</h5>
                         </div>
                     </div>
                     <!-- Combo Package -->
                     <div class="col-md-4 mb-4">
                         <div class="premium-card text-center h-100">
-                            <h5>Combo Package</h5>
-
+                            <h5 data-i18n="addon_combo_package">Combo Package</h5>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <style>
-            .premium-card {
-                background: linear-gradient(135deg, #474769, #2c2c3d);
-                color: #fff;
-                border-radius: 20px;
-                padding: 30px 20px;
-                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-                transition: transform 0.3s ease, box-shadow 0.3s ease;
-            }
+    </div>
 
-            .premium-card:hover {
-                transform: translateY(-10px);
-                box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
-            }
+    <style>
+        .premium-card {
+            background: linear-gradient(135deg, #474769, #2c2c3d);
+            color: #fff;
+            border-radius: 20px;
+            padding: 30px 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
 
-            .premium-card h5 {
-                font-size: 1.5rem;
-                font-weight: 700;
-                color: #007bff;
-            }
+        .premium-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+        }
 
-            .premium-card p {
-                font-size: 1rem;
-                margin: 10px 0 0;
-                color: #ddd;
-            }
+        .premium-card h5 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #007bff;
+        }
 
-            .section-title p {
-                font-size: 1rem;
-                color: #666;
-            }
-        </style>
+        .premium-card p {
+            font-size: 1rem;
+            margin: 10px 0 0;
+            color: #ddd;
+        }
+
+        .section-title p {
+            font-size: 1rem;
+            color: #666;
+        }
+    </style>
 
     </div>
-    <!--  ************************* Woithout SEO Start Here ************************** -->
-    <!-- <section class="seo-summary-section">
-        <div class="seo-summary-container">
-            <h2>SEO Services Without a Website</h2>
-            <p class="lead">Even without a website, your business can appear on Google and gain visibility. Here's
-                how:
-            </p>
-
-            <div class="seo-features-grid">
-                <div class="seo-feature-box">
-                    <i class="fas fa-map-marked-alt"></i>
-                    <span>Google My Business setup & management</span>
-                </div>
-                <div class="seo-feature-box">
-                    <i class="fas fa-users"></i>
-                    <span>Optimized social media presence</span>
-                </div>
-                <div class="seo-feature-box">
-                    <i class="fas fa-comment-dots"></i>
-                    <span>Review and reputation strategy</span>
-                </div>
-                <div class="seo-feature-box">
-                    <i class="fas fa-globe-europe"></i>
-                    <span>Exposure on third-party platforms</span>
-                </div>
-                <div class="seo-feature-box">
-                    <i class="fas fa-code"></i>
-                    <span>Optional branded one-page website</span>
-                </div>
-            </div>
-
-            <a href="assets/PDF/1.pdf" class="btn-download" download>
-                📥 Download Full SEO Strategy (PDF)
-            </a>
-        </div>
-        <style>
-            .seo-summary-section {
-                background: linear-gradient(135deg, #88b9f5, #ffffff);
-                padding: 100px 20px;
-                font-family: 'Poppins', sans-serif;
-                color: #1a1a1a;
-            }
-
-            .seo-summary-container {
-                max-width: 1100px;
-                margin: auto;
-                text-align: center;
-            }
-
-            .seo-summary-section h2 {
-                font-size: 3rem;
-                font-weight: 800;
-                color: #007BFF;
-                margin-bottom: 20px;
-            }
-
-            .seo-summary-section p.lead {
-                font-size: 1.25rem;
-                color: #5b5b5b;
-                max-width: 750px;
-                margin: 0 auto 50px;
-            }
-
-            .seo-features-grid {
-                display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-                gap: 30px;
-                margin-bottom: 60px;
-            }
-
-            .seo-feature-box {
-                background: rgba(255, 255, 255, 0.7);
-                backdrop-filter: blur(8px);
-                border-radius: 20px;
-                padding: 30px 25px;
-                box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
-                text-align: center;
-                opacity: 0;
-                transform: translateY(30px);
-                transition: opacity 0.8s ease, transform 0.8s ease;
-            }
-
-            .seo-feature-box.visible {
-                opacity: 1;
-                transform: translateY(0);
-            }
-
-            .seo-feature-box:hover {
-                transform: translateY(-6px);
-                box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
-                background: linear-gradient(90deg, #7183bd, #007BFF);
-            }
-
-            .seo-feature-box i {
-                font-size: 32px;
-                color: #007BFF;
-                margin-bottom: 15px;
-            }
-
-            .seo-feature-box span {
-                display: block;
-                font-size: 1.05rem;
-                font-weight: 600;
-                color: #2b2b2b;
-            }
-
-            .seo-summary-section .btn-download {
-                background: linear-gradient(90deg, #1c274c, #007BFF);
-                color: #fff;
-                padding: 15px 35px;
-                font-size: 1.1rem;
-                border-radius: 12px;
-                font-weight: 600;
-                text-decoration: none;
-                box-shadow: 0 6px 20px rgba(0, 123, 255, 0.25);
-                transition: all 0.3s ease;
-                display: inline-block;
-            }
-
-            .seo-summary-section .btn-download:hover {
-                background: linear-gradient(90deg, #007BFF, #1c274c);
-                transform: scale(1.03);
-            }
-        </style>
-    </section> -->
     <!--  ************************* Contact Us Start Here ************************** -->
     <footer id="contact" class="bg-dark text-white big-padding pb-0">
         <div class="section-title row text-center">
-            <h2 class="HeroDesc">Contact Us</h2>
+            <h2 class="HeroDesc" data-i18n="contact_us">Contact Us</h2>
         </div>
 
         <!-- MAP -->
         <div class="container mt-4 mb-4">
-            <h3 style="color: white;">Our Location</h3>
+            <h3 style="color: white;" data-i18n="our_location">Our Location</h3>
             <div class="mapouter">
                 <div class="gmap_canvas">
                     <iframe style="width: 100%" height="300" id="gmap_canvas"
@@ -1267,19 +1095,6 @@
         <!-- CONTACT INFO -->
         <div class="container-xl">
             <div class="row g-4 justify-content-between">
-                <!-- Left Column: SEO Message
-                <div class="col-md-5 col-12">
-                    <div class="aboutcol shadow-lg p-3 p-md-5 text-start">
-                        <h4 class="text-white fw-bold mb-3">Appear on Google without a Website</h4>
-                        <p class="mb-2">“Even without a website, we help you appear on Google through</p>
-                        <p class="mb-2">Google My Business, social media, and other platforms.</p>
-                        <p class="mb-2">For example, when someone searches ‘nail salon near me’, your info will show
-                            up
-                            first thanks to
-                            local SEO. If you want even better optimization, we can create a simple website at a
-                            reasonable cost.”</p>
-                    </div>
-                </div> -->
 
                 <!-- Right Column: Info & Links -->
                 <div class="col-md-6 col-12">
@@ -1291,7 +1106,8 @@
                                     <i class="bi fs-1 bi-geo-alt" style="color: orange;"></i>
                                 </div>
                                 <div>
-                                    <h5 class="text-light fw-bolder fs-5 fs-md-3">15 Avenue de Franche Comté<br>
+                                    <h5 class="text-light fw-bolder fs-5 fs-md-3" data-i18n="address">
+                                        15 Avenue de Franche Comté<br>
                                         78450 Villepreux,<br>
                                         France <span>. </span>
                                         <img src="../../assets/img/france.png" style="width: 50px; height: auto;"
@@ -1309,10 +1125,9 @@
                                 </div>
                                 <div>
                                     <h5 class="text-light fw-bolder fs-5 mb-0">+33 6 95 84 69 43</h5>
-                                    <p class="fs-6 mb-0 ps-1">Give us a Call</p>
+                                    <p class="fs-6 mb-0 ps-1" data-i18n="give_us_call">Give us a Call</p>
                                 </div>
                             </div>
-
 
                             <ul class="pt-3 list-unstyled d-flex justify-content-start social-icons">
                                 <li class="me-3 fs-5">
@@ -1338,18 +1153,18 @@
 
                         <!-- Useful Links -->
                         <div class="col-12 pt-3">
-                            <h4 class="fs-5 fw-bolder text-white ps-0"><span style="color: orange;">Useful
-                                    Links:</span>
-                            </h4>
-
+                            <h4 class="fs-5 fw-bolder text-white ps-0"><span style="color: orange;"
+                                    data-i18n="useful_links">Useful Links:</span></h4>
                             <ul class="row ps-0">
-                                <li class="col-6 p-3"><a class="text-white fw-bolder" href="#home">Home</a></li>
-                                <li class="col-6 p-3"><a class="text-white fw-bolder" href="#about">About Us</a>
+                                <li class="col-6 p-3"><a class="text-white fw-bolder" href="#home"
+                                        data-i18n="home">Home</a>
                                 </li>
-                                <li class="col-6 p-3"><a class="text-white fw-bolder" href="#Packages">Packages</a>
-                                </li>
-                                <li class="col-6 p-3"><a class="text-white fw-bolder" href="#services">Services</a>
-                                </li>
+                                <li class="col-6 p-3"><a class="text-white fw-bolder" href="#about"
+                                        data-i18n="about_us">About Us</a></li>
+                                <li class="col-6 p-3"><a class="text-white fw-bolder" href="#Packages"
+                                        data-i18n="packages">Packages</a></li>
+                                <li class="col-6 p-3"><a class="text-white fw-bolder" href="#services"
+                                        data-i18n="services">Services</a></li>
                             </ul>
                         </div>
 
@@ -1357,143 +1172,134 @@
                 </div>
             </div>
         </div>
-        <!-- Footer Styles -->
-        <style>
-            #contact {
-                /* background: linear-gradient(to right, #5fa8d3, #0e3953, #5fa8d3); */
-                background-color: #111827;
-                color: #f1f1f1;
+    </footer>
+
+    <!-- Footer Styles -->
+    <style>
+        #contact {
+            /* background: linear-gradient(to right, #5fa8d3, #0e3953, #5fa8d3); */
+            background-color: #111827;
+            color: #f1f1f1;
+        }
+
+        .aboutcol {
+            background: linear-gradient(135deg, #4b6282, #4b5563);
+            border-radius: 20px;
+            position: relative;
+            overflow: hidden;
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #e5e7eb;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+            transition: all 0.4s ease-in-out;
+            max-width: 100%;
+            width: 100%;
+            min-height: 300px;
+        }
+
+        .aboutcol:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+        }
+
+        .aboutcol::before {
+            content: "“";
+            font-size: 6rem;
+            color: rgba(255, 255, 255, 0.1);
+            position: absolute;
+            top: -10px;
+            left: 15px;
+            z-index: 0;
+        }
+
+        .aboutcol p {
+            position: relative;
+            z-index: 1;
+            animation: fadeInUp 0.8s ease forwards;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
             }
 
-            .aboutcol {
-                background: linear-gradient(135deg, #4b6282, #4b5563);
-                border-radius: 20px;
-                position: relative;
-                overflow: hidden;
-                font-size: 1rem;
-                line-height: 1.6;
-                color: #e5e7eb;
-                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
-                transition: all 0.4s ease-in-out;
-                max-width: 100%;
-                width: 100%;
-                min-height: 300px;
+            to {
+                opacity: 1;
+                transform: translateY(0);
             }
+        }
 
-            .aboutcol:hover {
-                transform: translateY(-8px) scale(1.02);
-                box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
-            }
+        .social-icons a {
+            display: inline-block;
+            font-size: 1.5rem;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
 
-            .aboutcol::before {
-                content: "“";
-                font-size: 6rem;
-                color: rgba(255, 255, 255, 0.1);
-                position: absolute;
-                top: -10px;
-                left: 15px;
-                z-index: 0;
-            }
+        .social-icons a:hover {
+            transform: scale(1.3);
+            color: #ff9800;
+        }
 
-            .aboutcol p {
-                position: relative;
-                z-index: 1;
-                animation: fadeInUp 0.8s ease forwards;
-            }
+        .mapouter {
+            position: relative;
+            text-align: right;
+            height: 300px;
+            width: 100%;
+        }
 
-            @keyframes fadeInUp {
-                from {
-                    opacity: 0;
-                    transform: translateY(20px);
-                }
+        .gmap_canvas {
+            overflow: hidden;
+            background: none !important;
+            height: 300px;
+            width: 100%;
+        }
 
-                to {
-                    opacity: 1;
-                    transform: translateY(0);
-                }
-            }
+        ul li a {
+            transition: color 0.3s ease;
+        }
 
-            .social-icons a {
-                display: inline-block;
-                font-size: 1.5rem;
-                transition: transform 0.3s ease, color 0.3s ease;
-            }
+        ul li a:hover {
+            color: #fbbf24;
+            text-decoration: underline;
+        }
+    </style>
+    <!-- FontAwesome CDN -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
-            .social-icons a:hover {
-                transform: scale(1.3);
-                color: #ff9800;
-            }
+    <!-- Scroll Animation Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const boxes = document.querySelectorAll('.seo-feature-box');
 
-            .mapouter {
-                position: relative;
-                text-align: right;
-                height: 300px;
-                width: 100%;
-            }
-
-            .gmap_canvas {
-                overflow: hidden;
-                background: none !important;
-                height: 300px;
-                width: 100%;
-            }
-
-            ul li a {
-                transition: color 0.3s ease;
-            }
-
-            ul li a:hover {
-                color: #fbbf24;
-                text-decoration: underline;
-            }
-        </style>
-        <!-- FontAwesome CDN -->
-        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-
-        <!-- Scroll Animation Script -->
-        <script>
-            document.addEventListener('DOMContentLoaded', () => {
-                const boxes = document.querySelectorAll('.seo-feature-box');
-
-                const observer = new IntersectionObserver(entries => {
-                    entries.forEach(entry => {
-                        if (entry.isIntersecting) {
-                            entry.target.classList.add('visible');
-                            observer.unobserve(entry.target);
-                        }
-                    });
-                }, {
-                    threshold: 0.2
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
                 });
-
-                boxes.forEach((box, index) => {
-                    // Add staggered delay
-                    box.style.transitionDelay = `${index * 0.2}s`;
-                    observer.observe(box);
-                });
+            }, {
+                threshold: 0.2
             });
-        </script>
+
+            boxes.forEach((box, index) => {
+                // Add staggered delay
+                box.style.transitionDelay = `${index * 0.2}s`;
+                observer.observe(box);
+            });
+        });
+    </script>
     </footer>
     <div class="copy" style="text-align: center;">
         <div class="container" style="display: flex; flex-direction: column; align-items: center;">
-            <p> &copy; All Rights Reserved | Designed and Developed by</p>
+            <p data-i18n="rights_reserved"> &copy; All Rights Reserved | Designed and Developed by</p>
             <a href="https://www.francis-tech.com/"
                 style="color: #007bff; font-weight: 700; font-size: large; text-align: center;">
                 Francis-Tech
             </a>
-
-            <span style="margin-top: 10px;">
-                <a href=""><i class="fab fa-github" style="margin: 0 5px;"></i></a>
-                <a href=""><i class="fab fa-google-plus-g" style="margin: 0 5px;"></i></a>
-                <a href="https://in.pinterest.com/prabnr/pins/"><i class="fab fa-pinterest-p"
-                        style="margin: 0 5px;"></i></a>
-                <a href="https://twitter.com/prabinraja89"><i class="fab fa-twitter" style="margin: 0 5px;"></i></a>
-                <a href="https://www.facebook.com/freewebtemplatesbysmarteye"><i class="fab fa-facebook-f"
-                        style="margin: 0 5px;"></i></a>
-            </span>
         </div>
     </div>
-
 </body>
 <script src="assets/js/jquery-3.2.1.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
